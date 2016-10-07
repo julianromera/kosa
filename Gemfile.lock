@@ -271,6 +271,8 @@ GEM
     nokogumbo (1.4.9)
       nokogiri
     rack (1.6.4)
+    rack-cache (1.6.1)
+      rack (>= 0.4)
     rack-flash3 (1.0.5)
       rack
     rack-protection (1.5.3)
@@ -278,6 +280,9 @@ GEM
     rack-test (0.6.3)
       rack (>= 1.0)
     rake (11.3.0)
+    rdf-do (2.0.0)
+      data_objects (~> 0.10)
+      rdf (~> 2.0)
     rdf-raptor (2.0.0)
       ffi (~> 1.9.10)
       rdf (~> 2.0)
@@ -369,6 +374,7 @@ DEPENDENCIES
   fileutils
   json-ld!
   linkeddata!
+  rack-cache
   rack-flash3
   rack-protection
   rack-test
@@ -376,6 +382,7 @@ DEPENDENCIES
   rdf!
   rdf-4store!
   rdf-aggregate-repo!
+  rdf-do
   rdf-isomorphic!
   rdf-json!
   rdf-microdata!
