@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Specify your gem's dependencies in github-lod.gemspec
-gemspec :name => ""
+#gemspec :name => ""
 
 # Include non-released gems first
 gem 'rdf',                :git => "git://github.com/ruby-rdf/rdf.git"        # , :tag => '1.0.10'
