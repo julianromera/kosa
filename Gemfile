@@ -25,6 +25,8 @@ gem 'sinatra-respond_to', :git => "git://github.com/gkellogg/sinatra-respond_to.
 
 gem 'sinatra'
 gem 'rubygems-bundler'
+gem 'rack-cache'
+gem 'rdf-do'
 
 gem 'sanitize'
 

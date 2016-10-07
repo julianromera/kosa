@@ -5,7 +5,7 @@
 
 $:.unshift(File.expand_path('../lib',  __FILE__))
 
- 
+
 require 'rubygems' || Gem.clear_paths
 require 'bundler'
 Bundler.setup
@@ -23,7 +23,7 @@ set :logging, true
 set :raise_errors, true
 set :show_exceptions, true
 set :static, true
-set :root, File.dirname(__FILE__) 
+set :root, File.dirname(__FILE__)
 set :environment, (ENV['RACK_ENV'] || 'production').to_sym
 
 
