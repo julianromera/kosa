@@ -21,7 +21,7 @@ gem 'linkeddata',         :git => "git://github.com/ruby-rdf/linkeddata.git"
 gem 'sparql-client',      :git => "git://github.com/ruby-rdf/sparql-client.git"
 gem 'sparql',             :git => "git://github.com/ruby-rdf/sparql.git"
 gem 'sinatra-respond_to', :git => "git://github.com/gkellogg/sinatra-respond_to.git", :require => 'sinatra/respond_to'
-gem 'rdf-sesame', 	  :git => "git://github.com/ruby-rdf/rdf-sesame.git"
+#gem 'rdf-sesame', 	  :git => "git://github.com/ruby-rdf/rdf-sesame.git"
 
 gem 'sinatra'
 gem 'rubygems-bundler'
@@ -74,7 +74,7 @@ group :development, :test do
   # gem 'rack-test'
   # gem "redcarpet"
   
-  gem "debugger" if RUBY_VERSION > "1.9"
+  # gem "debugger" if RUBY_VERSION > "1.9"
   gem "rake"
 end
 

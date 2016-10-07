@@ -1,0 +1,400 @@
+GIT
+  remote: git://github.com/fumi/rdf-4store.git
+  revision: 4a04008dfb3a6c9bc2c3354d736d0cb059f769fb
+  specs:
+    rdf-4store (0.0.3)
+      equivalent-xml (>= 0.3.0)
+      linkeddata (>= 0.3.5)
+      rdf (>= 0.3.11.1)
+      sparql-client (>= 0.3.3)
+
+GIT
+  remote: git://github.com/gkellogg/sinatra-respond_to.git
+  revision: 15b916d59486495eb3f183ff9883a700fa79d2f5
+  specs:
+    sinatra-respond_to (0.9.1)
+      sinatra (~> 1.3)
+
+GIT
+  remote: git://github.com/ruby-rdf/json-ld.git
+  revision: 96362b2e1282751d3eb9aa1d4ddaebdc8a898671
+  specs:
+    json-ld (2.1.0)
+      multi_json (~> 1.11)
+      rdf (~> 2.1)
+
+GIT
+  remote: git://github.com/ruby-rdf/linkeddata.git
+  revision: 97a85e25f7a3f93063d561c1ac3527ed0cd8aae3
+  specs:
+    linkeddata (2.0.0)
+      equivalent-xml (~> 0.6)
+      json-ld (~> 2.0)
+      ld-patch (~> 0.3)
+      nokogiri (~> 1.6)
+      rdf (~> 2.0)
+      rdf-aggregate-repo (~> 2.0)
+      rdf-isomorphic (~> 2.0)
+      rdf-json (~> 2.0)
+      rdf-microdata (~> 2.0)
+      rdf-n3 (~> 2.0)
+      rdf-rdfa (~> 2.0)
+      rdf-rdfxml (~> 2.0)
+      rdf-reasoner (~> 0.4)
+      rdf-tabular (~> 0.4)
+      rdf-trig (~> 2.0)
+      rdf-trix (~> 2.0)
+      rdf-turtle (~> 2.0)
+      rdf-vocab (~> 2.0)
+      rdf-xsd (~> 2.0)
+      sparql (~> 2.0)
+      sparql-client (~> 2.0)
+
+GIT
+  remote: git://github.com/ruby-rdf/rdf-aggregate-repo.git
+  revision: 4d74caa9f40fe1a29e6d369afe75d11c5efa2f49
+  specs:
+    rdf-aggregate-repo (2.0.0)
+      rdf (~> 2.0)
+
+GIT
+  remote: git://github.com/ruby-rdf/rdf-isomorphic.git
+  revision: 7efdfbe3afb974e169dc85a91695a81e61b42722
+  specs:
+    rdf-isomorphic (2.0.0)
+      rdf (~> 2.0)
+
+GIT
+  remote: git://github.com/ruby-rdf/rdf-json.git
+  revision: 1feccad13f36e891da2883ed71fc84dec3feb7d4
+  specs:
+    rdf-json (2.0.0)
+      rdf (~> 2.0)
+
+GIT
+  remote: git://github.com/ruby-rdf/rdf-microdata.git
+  revision: 9bf764d39d26fc713a46d4ca35d82767d311b943
+  specs:
+    rdf-microdata (2.0.3)
+      htmlentities (~> 4.3)
+      nokogiri (~> 1.6)
+      rdf (~> 2.0)
+      rdf-xsd (~> 2.0)
+
+GIT
+  remote: git://github.com/ruby-rdf/rdf-n3.git
+  revision: ae8537b3bd48c8f8c7af057549e4d28e406248d0
+  specs:
+    rdf-n3 (2.0.0)
+      rdf (~> 2.0)
+
+GIT
+  remote: git://github.com/ruby-rdf/rdf-rdfa.git
+  revision: fe36c6dc9472240579a5a757872fa4d663527834
+  specs:
+    rdf-rdfa (2.0.1)
+      haml (~> 4.0)
+      htmlentities (~> 4.3)
+      rdf (~> 2.0)
+      rdf-aggregate-repo (~> 2.0)
+      rdf-xsd (~> 2.0)
+
+GIT
+  remote: git://github.com/ruby-rdf/rdf-rdfxml.git
+  revision: 84c83f7438901f1fce144088d5517f08e61d10e2
+  specs:
+    rdf-rdfxml (2.0.0)
+      htmlentities (~> 4.3)
+      rdf (~> 2.0)
+      rdf-rdfa (~> 2.0)
+      rdf-xsd (~> 2.0)
+
+GIT
+  remote: git://github.com/ruby-rdf/rdf-trig.git
+  revision: d06e776939a7e1246c9d055b3a6a5cfcbf1de889
+  specs:
+    rdf-trig (2.0.0)
+      ebnf (~> 1.0, >= 1.0.1)
+      rdf (~> 2.0)
+      rdf-turtle (~> 2.0)
+
+GIT
+  remote: git://github.com/ruby-rdf/rdf-turtle.git
+  revision: 38494275af4b6df07bf2d854165f94e575dc56af
+  specs:
+    rdf-turtle (2.0.0)
+      ebnf (~> 1.0, >= 1.0.1)
+      rdf (~> 2.0)
+
+GIT
+  remote: git://github.com/ruby-rdf/rdf-xsd.git
+  revision: 205313d027f875ee728212f2c5b414e4959c0782
+  specs:
+    rdf-xsd (2.0.0)
+      rdf (~> 2.0)
+
+GIT
+  remote: git://github.com/ruby-rdf/rdf.git
+  revision: aeb042e5984412f524dc9153f1a665400f36a912
+  specs:
+    rdf (2.1.0)
+      hamster (~> 3.0)
+      link_header (~> 0.0, >= 0.0.8)
+
+GIT
+  remote: git://github.com/ruby-rdf/sparql-client.git
+  revision: 20f587d0059a8c61f87dec01f7d60754e4b4eed6
+  specs:
+    sparql-client (2.1.0)
+      net-http-persistent (~> 2.9)
+      rdf (~> 2.0)
+
+GIT
+  remote: git://github.com/ruby-rdf/sparql.git
+  revision: d6509737ea4d7cd5d37350bb11f466138eaa5a4b
+  specs:
+    sparql (2.0.0)
+      builder (~> 3.2)
+      ebnf (~> 1.0, >= 1.0.1)
+      rdf (~> 2.0)
+      rdf-aggregate-repo (~> 2.0)
+      rdf-xsd (~> 2.0)
+      sparql-client (~> 2.0)
+      sxp (~> 1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.4.0)
+    bcp47 (0.3.3)
+      i18n
+    bcrypt (3.1.11)
+    bcrypt-ruby (3.1.5)
+      bcrypt (>= 3.1.3)
+    builder (3.2.2)
+    bundler-unload (1.0.2)
+    concurrent-ruby (1.0.2)
+    coveralls (0.8.15)
+      json (>= 1.8, < 3)
+      simplecov (~> 0.12.0)
+      term-ansicolor (~> 1.3)
+      thor (~> 0.19.1)
+      tins (>= 1.6.0, < 2)
+    crack (0.4.3)
+      safe_yaml (~> 1.0.0)
+    crass (1.0.2)
+    dalli (2.7.6)
+    data_mapper (1.2.0)
+      dm-aggregates (~> 1.2.0)
+      dm-constraints (~> 1.2.0)
+      dm-core (~> 1.2.0)
+      dm-migrations (~> 1.2.0)
+      dm-serializer (~> 1.2.0)
+      dm-timestamps (~> 1.2.0)
+      dm-transactions (~> 1.2.0)
+      dm-types (~> 1.2.0)
+      dm-validations (~> 1.2.0)
+    data_objects (0.10.17)
+      addressable (~> 2.1)
+    diff-lcs (1.2.5)
+    dm-aggregates (1.2.0)
+      dm-core (~> 1.2.0)
+    dm-constraints (1.2.0)
+      dm-core (~> 1.2.0)
+    dm-core (1.2.1)
+      addressable (~> 2.3)
+    dm-do-adapter (1.2.0)
+      data_objects (~> 0.10.6)
+      dm-core (~> 1.2.0)
+    dm-migrations (1.2.0)
+      dm-core (~> 1.2.0)
+    dm-serializer (1.2.2)
+      dm-core (~> 1.2.0)
+      fastercsv (~> 1.5)
+      json (~> 1.6)
+      json_pure (~> 1.6)
+      multi_json (~> 1.0)
+    dm-sqlite-adapter (1.2.0)
+      dm-do-adapter (~> 1.2.0)
+      do_sqlite3 (~> 0.10.6)
+    dm-timestamps (1.2.0)
+      dm-core (~> 1.2.0)
+    dm-transactions (1.2.0)
+      dm-core (~> 1.2.0)
+    dm-types (1.2.2)
+      bcrypt-ruby (~> 3.0)
+      dm-core (~> 1.2.0)
+      fastercsv (~> 1.5)
+      json (~> 1.6)
+      multi_json (~> 1.0)
+      stringex (~> 1.4)
+      uuidtools (~> 2.1)
+    dm-validations (1.2.0)
+      dm-core (~> 1.2.0)
+    do_sqlite3 (0.10.17)
+      data_objects (= 0.10.17)
+    docile (1.1.5)
+    ebnf (1.0.1)
+      rdf (~> 2.0)
+      sxp (~> 1.0)
+    equivalent-xml (0.6.0)
+      nokogiri (>= 1.4.3)
+    executable-hooks (1.3.2)
+    fastercsv (1.5.5)
+    ffi (1.9.14)
+    ffi-compiler (1.0.1)
+      ffi (>= 1.0.0)
+      rake
+    fileutils (0.7)
+      rmagick (>= 2.13.1)
+    haml (4.0.7)
+      tilt
+    hamster (3.0.0)
+      concurrent-ruby (~> 1.0)
+    hashdiff (0.3.0)
+    htmlentities (4.3.4)
+    i18n (0.7.0)
+    json (1.8.3)
+    json_pure (1.8.3)
+    ld-patch (0.3.0)
+      ebnf (~> 1.0, >= 1.0.1)
+      rdf (~> 2.0)
+      rdf-xsd (~> 2.0)
+      sparql (~> 2.0)
+      sxp (~> 1.0)
+    link_header (0.0.8)
+    mini_portile2 (2.1.0)
+    multi_json (1.12.1)
+    net-http-persistent (2.9.4)
+    nokogiri (1.6.8.1)
+      mini_portile2 (~> 2.1.0)
+    nokogumbo (1.4.9)
+      nokogiri
+    rack (1.6.4)
+    rack-flash3 (1.0.5)
+      rack
+    rack-protection (1.5.3)
+      rack
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    rake (11.3.0)
+    rdf-raptor (2.0.0)
+      ffi (~> 1.9.10)
+      rdf (~> 2.0)
+    rdf-reasoner (0.4.0)
+      rdf (~> 2.0)
+      rdf-spec (~> 2.0)
+      rdf-vocab (~> 2.0)
+      rdf-xsd (~> 2.0)
+    rdf-spec (2.0.0)
+      rdf (~> 2.0)
+      rdf-isomorphic (~> 2.0)
+      rspec (~> 3.0)
+      rspec-its (~> 1.0)
+      webmock (~> 1.17)
+    rdf-tabular (0.4.0)
+      addressable (~> 2.3)
+      bcp47 (~> 0.3, >= 0.3.3)
+      json-ld (~> 2.0)
+      rdf (~> 2.0)
+      rdf-vocab (~> 2.0)
+      rdf-xsd (~> 2.0)
+    rdf-trix (2.0.0)
+      rdf (~> 2.0)
+    rdf-vocab (2.1.0)
+      rdf (~> 2.1)
+    rmagick (2.16.0)
+    rspec (3.5.0)
+      rspec-core (~> 3.5.0)
+      rspec-expectations (~> 3.5.0)
+      rspec-mocks (~> 3.5.0)
+    rspec-core (3.5.4)
+      rspec-support (~> 3.5.0)
+    rspec-expectations (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-its (1.2.0)
+      rspec-core (>= 3.0.0)
+      rspec-expectations (>= 3.0.0)
+    rspec-mocks (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-support (3.5.0)
+    rubygems-bundler (1.4.4)
+      bundler-unload (>= 1.0.2)
+      executable-hooks (>= 1.3.2)
+    safe_yaml (1.0.4)
+    sanitize (4.4.0)
+      crass (~> 1.0.2)
+      nokogiri (>= 1.4.4)
+      nokogumbo (~> 1.4.1)
+    scrypt (3.0.3)
+      ffi-compiler (>= 1.0.0)
+      rake
+    simplecov (0.12.0)
+      docile (~> 1.1.0)
+      json (>= 1.8, < 3)
+      simplecov-html (~> 0.10.0)
+    simplecov-html (0.10.0)
+    sinatra (1.4.7)
+      rack (~> 1.5)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    stringex (1.5.1)
+    sxp (1.0.0)
+      rdf (~> 2.0)
+    term-ansicolor (1.4.0)
+      tins (~> 1.0)
+    thor (0.19.1)
+    tilt (2.0.5)
+    tins (1.12.0)
+    uuidtools (2.1.5)
+    warden (1.2.6)
+      rack (>= 1.0)
+    webmock (1.24.6)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
+      hashdiff
+    yajl-ruby (1.2.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bcrypt-ruby
+  coveralls
+  dalli
+  data_mapper
+  dm-sqlite-adapter
+  fileutils
+  json-ld!
+  linkeddata!
+  rack-flash3
+  rack-protection
+  rack-test
+  rake
+  rdf!
+  rdf-4store!
+  rdf-aggregate-repo!
+  rdf-isomorphic!
+  rdf-json!
+  rdf-microdata!
+  rdf-n3!
+  rdf-raptor
+  rdf-rdfa!
+  rdf-rdfxml!
+  rdf-trig!
+  rdf-turtle!
+  rdf-xsd!
+  rubygems-bundler
+  sanitize
+  scrypt
+  sinatra
+  sinatra-respond_to!
+  sparql!
+  sparql-client!
+  warden
+  yajl-ruby
+
+BUNDLED WITH
+   1.13.2
