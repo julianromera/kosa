@@ -64,8 +64,9 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
-blazegraph.jar
-agrovoc_2016-07-15_core.rdf
-blazegraph.jnl
+
+/*.rdf
+/*.jar
+/*.jnl
 
 
