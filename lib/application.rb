@@ -151,11 +151,13 @@ class Kosa < Sinatra::Base
     end
 
 
+    # api index
     get '/api' do
         return encoder.encode({})
     end
 
 
+    # start Import
     get '/import' do
         content_type :json
         return encoder.encode({:code=>404, :message => "file not found"})
@@ -190,6 +192,7 @@ class Kosa < Sinatra::Base
       get_concepts(concept, uri, lang, page)
     end
 
+
     # node children. Returns {} if no children
     get '/api/getnarrowerconcepts' do
       cache_control :public, max_age: 1800
@@ -201,6 +204,7 @@ class Kosa < Sinatra::Base
       get_concepts(concept, uri, lang, page)
     end
 
+
     # first node in a tree
     get '/api/gettopconcepts' do
       cache_control :public, max_age: 1800
@@ -208,6 +212,7 @@ class Kosa < Sinatra::Base
       content_type :json
       get_top_concepts(lang)
     end
+
 
     # get info from node
     get '/api/getconcept' do
@@ -420,7 +425,6 @@ class Kosa < Sinatra::Base
         else
           lang = lang.upcase
         end
-
         query = sparql.query("
           PREFIX owl:  <http://www.w3.org/2002/07/owl#>
           PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -435,14 +439,11 @@ class Kosa < Sinatra::Base
             FILTER (!bound(?super))
           }
          ")
-
         count = query.count()
-
         if count.eql? 0
           # save resources
           return encoder.encode({})
         end
-
         ontologies = query.map { |w|
            { :name=> w.label, :id=>'', :uri=>w.root , :count=> count, :languages=>[]}
         }
@@ -457,10 +458,10 @@ class Kosa < Sinatra::Base
       return newUri
     end
 
+
     # @todo: check this
     # get PREFIX by removing the literal
     def get_prefix(uri)
       return uri.gsub(uri.to_s.split('/').last, "")
     end
-
 end
