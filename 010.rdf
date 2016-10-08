@@ -1,0 +1,1130 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:PDBx="http://pdbml.pdb.org/schema/pdbx-v40.xsd" xmlns:PDBo="http://rdf.wwpdb.org/schema/pdbx-v40.owl#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+  <PDBo:datablock rdf:about="http://rdf.wwpdb.org/cc/010">
+    <dcterms:identifier>010</dcterms:identifier>
+    <skos:altLabel>010</skos:altLabel>
+    <dc:title>phenylmethanol</dc:title>
+    <rdfs:seeAlso rdf:resource="http://pdbj.org/chemie/summary/010"/>
+    <rdfs:seeAlso rdf:resource="http://ligand-expo.rcsb.org/pyapps/ldHandler.py?formid=cc-index-search&amp;operation=ccid&amp;target=010"/>
+    <rdfs:seeAlso rdf:resource="http://www.ebi.ac.uk/pdbe-srv/pdbechem/chemicalCompound/show/010"/>
+    <PDBo:datablockName>010</PDBo:datablockName>
+    <PDBo:has_chem_compCategory>
+      <PDBo:chem_compCategory rdf:about="http://rdf.wwpdb.org/cc/010/chem_compCategory">
+        <PDBo:has_chem_comp>
+          <PDBo:chem_comp rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:chem_comp.id>010</PDBo:chem_comp.id>
+            <PDBo:chem_comp.formula>C7 H8 O</PDBo:chem_comp.formula>
+            <PDBo:chem_comp.formula_weight>108.138</PDBo:chem_comp.formula_weight>
+            <PDBo:chem_comp.name>phenylmethanol</PDBo:chem_comp.name>
+            <PDBo:chem_comp.pdbx_ambiguous_flag>N</PDBo:chem_comp.pdbx_ambiguous_flag>
+            <PDBo:chem_comp.pdbx_formal_charge>0</PDBo:chem_comp.pdbx_formal_charge>
+            <PDBo:chem_comp.pdbx_ideal_coordinates_details>Corina</PDBo:chem_comp.pdbx_ideal_coordinates_details>
+            <PDBo:chem_comp.pdbx_ideal_coordinates_missing_flag>N</PDBo:chem_comp.pdbx_ideal_coordinates_missing_flag>
+            <PDBo:chem_comp.pdbx_initial_date>2010-11-15</PDBo:chem_comp.pdbx_initial_date>
+            <PDBo:chem_comp.pdbx_model_coordinates_db_code>2CNK</PDBo:chem_comp.pdbx_model_coordinates_db_code>
+            <PDBo:chem_comp.pdbx_model_coordinates_missing_flag>N</PDBo:chem_comp.pdbx_model_coordinates_missing_flag>
+            <PDBo:chem_comp.pdbx_modified_date>2013-12-20</PDBo:chem_comp.pdbx_modified_date>
+            <PDBo:chem_comp.pdbx_processing_site>RCSB</PDBo:chem_comp.pdbx_processing_site>
+            <PDBo:chem_comp.pdbx_release_status>REL</PDBo:chem_comp.pdbx_release_status>
+            <PDBo:chem_comp.pdbx_type>HETAIN</PDBo:chem_comp.pdbx_type>
+            <PDBo:chem_comp.three_letter_code>010</PDBo:chem_comp.three_letter_code>
+            <PDBo:chem_comp.type>non-polymer</PDBo:chem_comp.type>
+            <PDBo:link_to_pdb rdf:resource="http://rdf.wwpdb.org/pdb/2CNK"/>
+          </PDBo:chem_comp>
+        </PDBo:has_chem_comp>
+      </PDBo:chem_compCategory>
+    </PDBo:has_chem_compCategory>
+    <PDBo:has_chem_comp_atomCategory>
+      <PDBo:chem_comp_atomCategory rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atomCategory">
+        <PDBo:has_chem_comp_atom>
+          <PDBo:chem_comp_atom rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_atom rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:chem_comp_atom.atom_id>C</PDBo:chem_comp_atom.atom_id>
+            <PDBo:chem_comp_atom.comp_id>010</PDBo:chem_comp_atom.comp_id>
+            <PDBo:chem_comp_atom.alt_atom_id>C</PDBo:chem_comp_atom.alt_atom_id>
+            <PDBo:chem_comp_atom.charge>0</PDBo:chem_comp_atom.charge>
+            <PDBo:chem_comp_atom.model_Cartn_x>36.659</PDBo:chem_comp_atom.model_Cartn_x>
+            <PDBo:chem_comp_atom.model_Cartn_y>38.527</PDBo:chem_comp_atom.model_Cartn_y>
+            <PDBo:chem_comp_atom.model_Cartn_z>33.888</PDBo:chem_comp_atom.model_Cartn_z>
+            <PDBo:chem_comp_atom.pdbx_align>1</PDBo:chem_comp_atom.pdbx_align>
+            <PDBo:chem_comp_atom.pdbx_aromatic_flag>N</PDBo:chem_comp_atom.pdbx_aromatic_flag>
+            <PDBo:chem_comp_atom.pdbx_component_atom_id>C</PDBo:chem_comp_atom.pdbx_component_atom_id>
+            <PDBo:chem_comp_atom.pdbx_component_comp_id>010</PDBo:chem_comp_atom.pdbx_component_comp_id>
+            <PDBo:chem_comp_atom.pdbx_leaving_atom_flag>N</PDBo:chem_comp_atom.pdbx_leaving_atom_flag>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>1.922</PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>0.004</PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>-0.565</PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>
+            <PDBo:chem_comp_atom.pdbx_ordinal>1</PDBo:chem_comp_atom.pdbx_ordinal>
+            <PDBo:chem_comp_atom.pdbx_stereo_config>N</PDBo:chem_comp_atom.pdbx_stereo_config>
+            <PDBo:chem_comp_atom.type_symbol>C</PDBo:chem_comp_atom.type_symbol>
+          </PDBo:chem_comp_atom>
+        </PDBo:has_chem_comp_atom>
+        <PDBo:has_chem_comp_atom>
+          <PDBo:chem_comp_atom rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/O,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_atom rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_atom/O,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:chem_comp_atom.atom_id>O</PDBo:chem_comp_atom.atom_id>
+            <PDBo:chem_comp_atom.comp_id>010</PDBo:chem_comp_atom.comp_id>
+            <PDBo:chem_comp_atom.alt_atom_id>O</PDBo:chem_comp_atom.alt_atom_id>
+            <PDBo:chem_comp_atom.charge>0</PDBo:chem_comp_atom.charge>
+            <PDBo:chem_comp_atom.model_Cartn_x>35.631</PDBo:chem_comp_atom.model_Cartn_x>
+            <PDBo:chem_comp_atom.model_Cartn_y>37.539</PDBo:chem_comp_atom.model_Cartn_y>
+            <PDBo:chem_comp_atom.model_Cartn_z>33.518</PDBo:chem_comp_atom.model_Cartn_z>
+            <PDBo:chem_comp_atom.pdbx_align>1</PDBo:chem_comp_atom.pdbx_align>
+            <PDBo:chem_comp_atom.pdbx_aromatic_flag>N</PDBo:chem_comp_atom.pdbx_aromatic_flag>
+            <PDBo:chem_comp_atom.pdbx_component_atom_id>O</PDBo:chem_comp_atom.pdbx_component_atom_id>
+            <PDBo:chem_comp_atom.pdbx_component_comp_id>010</PDBo:chem_comp_atom.pdbx_component_comp_id>
+            <PDBo:chem_comp_atom.pdbx_leaving_atom_flag>N</PDBo:chem_comp_atom.pdbx_leaving_atom_flag>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>2.635</PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>-0.003</PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>0.673</PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>
+            <PDBo:chem_comp_atom.pdbx_ordinal>2</PDBo:chem_comp_atom.pdbx_ordinal>
+            <PDBo:chem_comp_atom.pdbx_stereo_config>N</PDBo:chem_comp_atom.pdbx_stereo_config>
+            <PDBo:chem_comp_atom.type_symbol>O</PDBo:chem_comp_atom.type_symbol>
+          </PDBo:chem_comp_atom>
+        </PDBo:has_chem_comp_atom>
+        <PDBo:has_chem_comp_atom>
+          <PDBo:chem_comp_atom rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C1,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_atom rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C1,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:chem_comp_atom.atom_id>C1</PDBo:chem_comp_atom.atom_id>
+            <PDBo:chem_comp_atom.comp_id>010</PDBo:chem_comp_atom.comp_id>
+            <PDBo:chem_comp_atom.alt_atom_id>C1</PDBo:chem_comp_atom.alt_atom_id>
+            <PDBo:chem_comp_atom.charge>0</PDBo:chem_comp_atom.charge>
+            <PDBo:chem_comp_atom.model_Cartn_x>36.486</PDBo:chem_comp_atom.model_Cartn_x>
+            <PDBo:chem_comp_atom.model_Cartn_y>40.574</PDBo:chem_comp_atom.model_Cartn_y>
+            <PDBo:chem_comp_atom.model_Cartn_z>35.477</PDBo:chem_comp_atom.model_Cartn_z>
+            <PDBo:chem_comp_atom.pdbx_align>1</PDBo:chem_comp_atom.pdbx_align>
+            <PDBo:chem_comp_atom.pdbx_aromatic_flag>Y</PDBo:chem_comp_atom.pdbx_aromatic_flag>
+            <PDBo:chem_comp_atom.pdbx_component_atom_id>C1</PDBo:chem_comp_atom.pdbx_component_atom_id>
+            <PDBo:chem_comp_atom.pdbx_component_comp_id>010</PDBo:chem_comp_atom.pdbx_component_comp_id>
+            <PDBo:chem_comp_atom.pdbx_leaving_atom_flag>N</PDBo:chem_comp_atom.pdbx_leaving_atom_flag>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>-0.240</PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>1.198</PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>-0.159</PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>
+            <PDBo:chem_comp_atom.pdbx_ordinal>3</PDBo:chem_comp_atom.pdbx_ordinal>
+            <PDBo:chem_comp_atom.pdbx_stereo_config>N</PDBo:chem_comp_atom.pdbx_stereo_config>
+            <PDBo:chem_comp_atom.type_symbol>C</PDBo:chem_comp_atom.type_symbol>
+          </PDBo:chem_comp_atom>
+        </PDBo:has_chem_comp_atom>
+        <PDBo:has_chem_comp_atom>
+          <PDBo:chem_comp_atom rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C2,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_atom rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C2,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:chem_comp_atom.atom_id>C2</PDBo:chem_comp_atom.atom_id>
+            <PDBo:chem_comp_atom.comp_id>010</PDBo:chem_comp_atom.comp_id>
+            <PDBo:chem_comp_atom.alt_atom_id>C2</PDBo:chem_comp_atom.alt_atom_id>
+            <PDBo:chem_comp_atom.charge>0</PDBo:chem_comp_atom.charge>
+            <PDBo:chem_comp_atom.model_Cartn_x>36.258</PDBo:chem_comp_atom.model_Cartn_x>
+            <PDBo:chem_comp_atom.model_Cartn_y>41.147</PDBo:chem_comp_atom.model_Cartn_y>
+            <PDBo:chem_comp_atom.model_Cartn_z>36.800</PDBo:chem_comp_atom.model_Cartn_z>
+            <PDBo:chem_comp_atom.pdbx_align>1</PDBo:chem_comp_atom.pdbx_align>
+            <PDBo:chem_comp_atom.pdbx_aromatic_flag>Y</PDBo:chem_comp_atom.pdbx_aromatic_flag>
+            <PDBo:chem_comp_atom.pdbx_component_atom_id>C2</PDBo:chem_comp_atom.pdbx_component_atom_id>
+            <PDBo:chem_comp_atom.pdbx_component_comp_id>010</PDBo:chem_comp_atom.pdbx_component_comp_id>
+            <PDBo:chem_comp_atom.pdbx_leaving_atom_flag>N</PDBo:chem_comp_atom.pdbx_leaving_atom_flag>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>-1.600</PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>1.196</PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>0.092</PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>
+            <PDBo:chem_comp_atom.pdbx_ordinal>4</PDBo:chem_comp_atom.pdbx_ordinal>
+            <PDBo:chem_comp_atom.pdbx_stereo_config>N</PDBo:chem_comp_atom.pdbx_stereo_config>
+            <PDBo:chem_comp_atom.type_symbol>C</PDBo:chem_comp_atom.type_symbol>
+          </PDBo:chem_comp_atom>
+        </PDBo:has_chem_comp_atom>
+        <PDBo:has_chem_comp_atom>
+          <PDBo:chem_comp_atom rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C3,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_atom rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C3,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:chem_comp_atom.atom_id>C3</PDBo:chem_comp_atom.atom_id>
+            <PDBo:chem_comp_atom.comp_id>010</PDBo:chem_comp_atom.comp_id>
+            <PDBo:chem_comp_atom.alt_atom_id>C3</PDBo:chem_comp_atom.alt_atom_id>
+            <PDBo:chem_comp_atom.charge>0</PDBo:chem_comp_atom.charge>
+            <PDBo:chem_comp_atom.model_Cartn_x>35.949</PDBo:chem_comp_atom.model_Cartn_x>
+            <PDBo:chem_comp_atom.model_Cartn_y>40.277</PDBo:chem_comp_atom.model_Cartn_y>
+            <PDBo:chem_comp_atom.model_Cartn_z>37.941</PDBo:chem_comp_atom.model_Cartn_z>
+            <PDBo:chem_comp_atom.pdbx_align>1</PDBo:chem_comp_atom.pdbx_align>
+            <PDBo:chem_comp_atom.pdbx_aromatic_flag>Y</PDBo:chem_comp_atom.pdbx_aromatic_flag>
+            <PDBo:chem_comp_atom.pdbx_component_atom_id>C3</PDBo:chem_comp_atom.pdbx_component_atom_id>
+            <PDBo:chem_comp_atom.pdbx_component_comp_id>010</PDBo:chem_comp_atom.pdbx_component_comp_id>
+            <PDBo:chem_comp_atom.pdbx_leaving_atom_flag>N</PDBo:chem_comp_atom.pdbx_leaving_atom_flag>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>-2.278</PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>-0.002</PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>0.217</PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>
+            <PDBo:chem_comp_atom.pdbx_ordinal>5</PDBo:chem_comp_atom.pdbx_ordinal>
+            <PDBo:chem_comp_atom.pdbx_stereo_config>N</PDBo:chem_comp_atom.pdbx_stereo_config>
+            <PDBo:chem_comp_atom.type_symbol>C</PDBo:chem_comp_atom.type_symbol>
+          </PDBo:chem_comp_atom>
+        </PDBo:has_chem_comp_atom>
+        <PDBo:has_chem_comp_atom>
+          <PDBo:chem_comp_atom rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C4,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_atom rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C4,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:chem_comp_atom.atom_id>C4</PDBo:chem_comp_atom.atom_id>
+            <PDBo:chem_comp_atom.comp_id>010</PDBo:chem_comp_atom.comp_id>
+            <PDBo:chem_comp_atom.alt_atom_id>C4</PDBo:chem_comp_atom.alt_atom_id>
+            <PDBo:chem_comp_atom.charge>0</PDBo:chem_comp_atom.charge>
+            <PDBo:chem_comp_atom.model_Cartn_x>35.867</PDBo:chem_comp_atom.model_Cartn_x>
+            <PDBo:chem_comp_atom.model_Cartn_y>38.822</PDBo:chem_comp_atom.model_Cartn_y>
+            <PDBo:chem_comp_atom.model_Cartn_z>37.749</PDBo:chem_comp_atom.model_Cartn_z>
+            <PDBo:chem_comp_atom.pdbx_align>1</PDBo:chem_comp_atom.pdbx_align>
+            <PDBo:chem_comp_atom.pdbx_aromatic_flag>Y</PDBo:chem_comp_atom.pdbx_aromatic_flag>
+            <PDBo:chem_comp_atom.pdbx_component_atom_id>C4</PDBo:chem_comp_atom.pdbx_component_atom_id>
+            <PDBo:chem_comp_atom.pdbx_component_comp_id>010</PDBo:chem_comp_atom.pdbx_component_comp_id>
+            <PDBo:chem_comp_atom.pdbx_leaving_atom_flag>N</PDBo:chem_comp_atom.pdbx_leaving_atom_flag>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>-1.597</PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>-1.198</PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>0.090</PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>
+            <PDBo:chem_comp_atom.pdbx_ordinal>6</PDBo:chem_comp_atom.pdbx_ordinal>
+            <PDBo:chem_comp_atom.pdbx_stereo_config>N</PDBo:chem_comp_atom.pdbx_stereo_config>
+            <PDBo:chem_comp_atom.type_symbol>C</PDBo:chem_comp_atom.type_symbol>
+          </PDBo:chem_comp_atom>
+        </PDBo:has_chem_comp_atom>
+        <PDBo:has_chem_comp_atom>
+          <PDBo:chem_comp_atom rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C5,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_atom rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C5,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:chem_comp_atom.atom_id>C5</PDBo:chem_comp_atom.atom_id>
+            <PDBo:chem_comp_atom.comp_id>010</PDBo:chem_comp_atom.comp_id>
+            <PDBo:chem_comp_atom.alt_atom_id>C5</PDBo:chem_comp_atom.alt_atom_id>
+            <PDBo:chem_comp_atom.charge>0</PDBo:chem_comp_atom.charge>
+            <PDBo:chem_comp_atom.model_Cartn_x>36.098</PDBo:chem_comp_atom.model_Cartn_x>
+            <PDBo:chem_comp_atom.model_Cartn_y>38.246</PDBo:chem_comp_atom.model_Cartn_y>
+            <PDBo:chem_comp_atom.model_Cartn_z>36.418</PDBo:chem_comp_atom.model_Cartn_z>
+            <PDBo:chem_comp_atom.pdbx_align>1</PDBo:chem_comp_atom.pdbx_align>
+            <PDBo:chem_comp_atom.pdbx_aromatic_flag>Y</PDBo:chem_comp_atom.pdbx_aromatic_flag>
+            <PDBo:chem_comp_atom.pdbx_component_atom_id>C5</PDBo:chem_comp_atom.pdbx_component_atom_id>
+            <PDBo:chem_comp_atom.pdbx_component_comp_id>010</PDBo:chem_comp_atom.pdbx_component_comp_id>
+            <PDBo:chem_comp_atom.pdbx_leaving_atom_flag>N</PDBo:chem_comp_atom.pdbx_leaving_atom_flag>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>-0.237</PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>-1.196</PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>-0.161</PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>
+            <PDBo:chem_comp_atom.pdbx_ordinal>7</PDBo:chem_comp_atom.pdbx_ordinal>
+            <PDBo:chem_comp_atom.pdbx_stereo_config>N</PDBo:chem_comp_atom.pdbx_stereo_config>
+            <PDBo:chem_comp_atom.type_symbol>C</PDBo:chem_comp_atom.type_symbol>
+          </PDBo:chem_comp_atom>
+        </PDBo:has_chem_comp_atom>
+        <PDBo:has_chem_comp_atom>
+          <PDBo:chem_comp_atom rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C6,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_atom rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C6,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:chem_comp_atom.atom_id>C6</PDBo:chem_comp_atom.atom_id>
+            <PDBo:chem_comp_atom.comp_id>010</PDBo:chem_comp_atom.comp_id>
+            <PDBo:chem_comp_atom.alt_atom_id>C6</PDBo:chem_comp_atom.alt_atom_id>
+            <PDBo:chem_comp_atom.charge>0</PDBo:chem_comp_atom.charge>
+            <PDBo:chem_comp_atom.model_Cartn_x>36.408</PDBo:chem_comp_atom.model_Cartn_x>
+            <PDBo:chem_comp_atom.model_Cartn_y>39.120</PDBo:chem_comp_atom.model_Cartn_y>
+            <PDBo:chem_comp_atom.model_Cartn_z>35.278</PDBo:chem_comp_atom.model_Cartn_z>
+            <PDBo:chem_comp_atom.pdbx_align>1</PDBo:chem_comp_atom.pdbx_align>
+            <PDBo:chem_comp_atom.pdbx_aromatic_flag>Y</PDBo:chem_comp_atom.pdbx_aromatic_flag>
+            <PDBo:chem_comp_atom.pdbx_component_atom_id>C6</PDBo:chem_comp_atom.pdbx_component_atom_id>
+            <PDBo:chem_comp_atom.pdbx_component_comp_id>010</PDBo:chem_comp_atom.pdbx_component_comp_id>
+            <PDBo:chem_comp_atom.pdbx_leaving_atom_flag>N</PDBo:chem_comp_atom.pdbx_leaving_atom_flag>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>0.440</PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>0.002</PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>-0.291</PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>
+            <PDBo:chem_comp_atom.pdbx_ordinal>8</PDBo:chem_comp_atom.pdbx_ordinal>
+            <PDBo:chem_comp_atom.pdbx_stereo_config>N</PDBo:chem_comp_atom.pdbx_stereo_config>
+            <PDBo:chem_comp_atom.type_symbol>C</PDBo:chem_comp_atom.type_symbol>
+          </PDBo:chem_comp_atom>
+        </PDBo:has_chem_comp_atom>
+        <PDBo:has_chem_comp_atom>
+          <PDBo:chem_comp_atom rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/H,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_atom rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_atom/H,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:chem_comp_atom.atom_id>H</PDBo:chem_comp_atom.atom_id>
+            <PDBo:chem_comp_atom.comp_id>010</PDBo:chem_comp_atom.comp_id>
+            <PDBo:chem_comp_atom.alt_atom_id>H</PDBo:chem_comp_atom.alt_atom_id>
+            <PDBo:chem_comp_atom.charge>0</PDBo:chem_comp_atom.charge>
+            <PDBo:chem_comp_atom.model_Cartn_x>37.640</PDBo:chem_comp_atom.model_Cartn_x>
+            <PDBo:chem_comp_atom.model_Cartn_y>38.030</PDBo:chem_comp_atom.model_Cartn_y>
+            <PDBo:chem_comp_atom.model_Cartn_z>33.889</PDBo:chem_comp_atom.model_Cartn_z>
+            <PDBo:chem_comp_atom.pdbx_align>1</PDBo:chem_comp_atom.pdbx_align>
+            <PDBo:chem_comp_atom.pdbx_aromatic_flag>N</PDBo:chem_comp_atom.pdbx_aromatic_flag>
+            <PDBo:chem_comp_atom.pdbx_component_atom_id>H</PDBo:chem_comp_atom.pdbx_component_atom_id>
+            <PDBo:chem_comp_atom.pdbx_component_comp_id>010</PDBo:chem_comp_atom.pdbx_component_comp_id>
+            <PDBo:chem_comp_atom.pdbx_leaving_atom_flag>N</PDBo:chem_comp_atom.pdbx_leaving_atom_flag>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>2.185</PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>0.897</PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>-1.131</PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>
+            <PDBo:chem_comp_atom.pdbx_ordinal>9</PDBo:chem_comp_atom.pdbx_ordinal>
+            <PDBo:chem_comp_atom.pdbx_stereo_config>N</PDBo:chem_comp_atom.pdbx_stereo_config>
+            <PDBo:chem_comp_atom.type_symbol>H</PDBo:chem_comp_atom.type_symbol>
+          </PDBo:chem_comp_atom>
+        </PDBo:has_chem_comp_atom>
+        <PDBo:has_chem_comp_atom>
+          <PDBo:chem_comp_atom rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/HA,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_atom rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_atom/HA,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:chem_comp_atom.atom_id>HA</PDBo:chem_comp_atom.atom_id>
+            <PDBo:chem_comp_atom.comp_id>010</PDBo:chem_comp_atom.comp_id>
+            <PDBo:chem_comp_atom.alt_atom_id>HA</PDBo:chem_comp_atom.alt_atom_id>
+            <PDBo:chem_comp_atom.charge>0</PDBo:chem_comp_atom.charge>
+            <PDBo:chem_comp_atom.model_Cartn_x>36.646</PDBo:chem_comp_atom.model_Cartn_x>
+            <PDBo:chem_comp_atom.model_Cartn_y>39.342</PDBo:chem_comp_atom.model_Cartn_y>
+            <PDBo:chem_comp_atom.model_Cartn_z>33.150</PDBo:chem_comp_atom.model_Cartn_z>
+            <PDBo:chem_comp_atom.pdbx_align>1</PDBo:chem_comp_atom.pdbx_align>
+            <PDBo:chem_comp_atom.pdbx_aromatic_flag>N</PDBo:chem_comp_atom.pdbx_aromatic_flag>
+            <PDBo:chem_comp_atom.pdbx_component_atom_id>HA</PDBo:chem_comp_atom.pdbx_component_atom_id>
+            <PDBo:chem_comp_atom.pdbx_component_comp_id>010</PDBo:chem_comp_atom.pdbx_component_comp_id>
+            <PDBo:chem_comp_atom.pdbx_leaving_atom_flag>N</PDBo:chem_comp_atom.pdbx_leaving_atom_flag>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>2.186</PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>-0.883</PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>-1.141</PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>
+            <PDBo:chem_comp_atom.pdbx_ordinal>10</PDBo:chem_comp_atom.pdbx_ordinal>
+            <PDBo:chem_comp_atom.pdbx_stereo_config>N</PDBo:chem_comp_atom.pdbx_stereo_config>
+            <PDBo:chem_comp_atom.type_symbol>H</PDBo:chem_comp_atom.type_symbol>
+          </PDBo:chem_comp_atom>
+        </PDBo:has_chem_comp_atom>
+        <PDBo:has_chem_comp_atom>
+          <PDBo:chem_comp_atom rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/HO,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_atom rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_atom/HO,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:chem_comp_atom.atom_id>HO</PDBo:chem_comp_atom.atom_id>
+            <PDBo:chem_comp_atom.comp_id>010</PDBo:chem_comp_atom.comp_id>
+            <PDBo:chem_comp_atom.alt_atom_id>HO</PDBo:chem_comp_atom.alt_atom_id>
+            <PDBo:chem_comp_atom.charge>0</PDBo:chem_comp_atom.charge>
+            <PDBo:chem_comp_atom.model_Cartn_x>35.819</PDBo:chem_comp_atom.model_Cartn_x>
+            <PDBo:chem_comp_atom.model_Cartn_y>37.194</PDBo:chem_comp_atom.model_Cartn_y>
+            <PDBo:chem_comp_atom.model_Cartn_z>32.653</PDBo:chem_comp_atom.model_Cartn_z>
+            <PDBo:chem_comp_atom.pdbx_align>1</PDBo:chem_comp_atom.pdbx_align>
+            <PDBo:chem_comp_atom.pdbx_aromatic_flag>N</PDBo:chem_comp_atom.pdbx_aromatic_flag>
+            <PDBo:chem_comp_atom.pdbx_component_atom_id>HO</PDBo:chem_comp_atom.pdbx_component_atom_id>
+            <PDBo:chem_comp_atom.pdbx_component_comp_id>010</PDBo:chem_comp_atom.pdbx_component_comp_id>
+            <PDBo:chem_comp_atom.pdbx_leaving_atom_flag>Y</PDBo:chem_comp_atom.pdbx_leaving_atom_flag>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>3.597</PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>-0.002</PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>0.573</PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>
+            <PDBo:chem_comp_atom.pdbx_ordinal>11</PDBo:chem_comp_atom.pdbx_ordinal>
+            <PDBo:chem_comp_atom.pdbx_stereo_config>N</PDBo:chem_comp_atom.pdbx_stereo_config>
+            <PDBo:chem_comp_atom.type_symbol>H</PDBo:chem_comp_atom.type_symbol>
+          </PDBo:chem_comp_atom>
+        </PDBo:has_chem_comp_atom>
+        <PDBo:has_chem_comp_atom>
+          <PDBo:chem_comp_atom rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/H1,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_atom rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_atom/H1,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:chem_comp_atom.atom_id>H1</PDBo:chem_comp_atom.atom_id>
+            <PDBo:chem_comp_atom.comp_id>010</PDBo:chem_comp_atom.comp_id>
+            <PDBo:chem_comp_atom.alt_atom_id>H1</PDBo:chem_comp_atom.alt_atom_id>
+            <PDBo:chem_comp_atom.charge>0</PDBo:chem_comp_atom.charge>
+            <PDBo:chem_comp_atom.model_Cartn_x>36.713</PDBo:chem_comp_atom.model_Cartn_x>
+            <PDBo:chem_comp_atom.model_Cartn_y>41.220</PDBo:chem_comp_atom.model_Cartn_y>
+            <PDBo:chem_comp_atom.model_Cartn_z>34.642</PDBo:chem_comp_atom.model_Cartn_z>
+            <PDBo:chem_comp_atom.pdbx_align>1</PDBo:chem_comp_atom.pdbx_align>
+            <PDBo:chem_comp_atom.pdbx_aromatic_flag>N</PDBo:chem_comp_atom.pdbx_aromatic_flag>
+            <PDBo:chem_comp_atom.pdbx_component_atom_id>H1</PDBo:chem_comp_atom.pdbx_component_atom_id>
+            <PDBo:chem_comp_atom.pdbx_component_comp_id>010</PDBo:chem_comp_atom.pdbx_component_comp_id>
+            <PDBo:chem_comp_atom.pdbx_leaving_atom_flag>N</PDBo:chem_comp_atom.pdbx_leaving_atom_flag>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>0.290</PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>2.134</PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>-0.256</PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>
+            <PDBo:chem_comp_atom.pdbx_ordinal>12</PDBo:chem_comp_atom.pdbx_ordinal>
+            <PDBo:chem_comp_atom.pdbx_stereo_config>N</PDBo:chem_comp_atom.pdbx_stereo_config>
+            <PDBo:chem_comp_atom.type_symbol>H</PDBo:chem_comp_atom.type_symbol>
+          </PDBo:chem_comp_atom>
+        </PDBo:has_chem_comp_atom>
+        <PDBo:has_chem_comp_atom>
+          <PDBo:chem_comp_atom rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/H2,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_atom rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_atom/H2,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:chem_comp_atom.atom_id>H2</PDBo:chem_comp_atom.atom_id>
+            <PDBo:chem_comp_atom.comp_id>010</PDBo:chem_comp_atom.comp_id>
+            <PDBo:chem_comp_atom.alt_atom_id>H2</PDBo:chem_comp_atom.alt_atom_id>
+            <PDBo:chem_comp_atom.charge>0</PDBo:chem_comp_atom.charge>
+            <PDBo:chem_comp_atom.model_Cartn_x>36.317</PDBo:chem_comp_atom.model_Cartn_x>
+            <PDBo:chem_comp_atom.model_Cartn_y>42.216</PDBo:chem_comp_atom.model_Cartn_y>
+            <PDBo:chem_comp_atom.model_Cartn_z>36.940</PDBo:chem_comp_atom.model_Cartn_z>
+            <PDBo:chem_comp_atom.pdbx_align>1</PDBo:chem_comp_atom.pdbx_align>
+            <PDBo:chem_comp_atom.pdbx_aromatic_flag>N</PDBo:chem_comp_atom.pdbx_aromatic_flag>
+            <PDBo:chem_comp_atom.pdbx_component_atom_id>H2</PDBo:chem_comp_atom.pdbx_component_atom_id>
+            <PDBo:chem_comp_atom.pdbx_component_comp_id>010</PDBo:chem_comp_atom.pdbx_component_comp_id>
+            <PDBo:chem_comp_atom.pdbx_leaving_atom_flag>N</PDBo:chem_comp_atom.pdbx_leaving_atom_flag>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>-2.132</PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>2.131</PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>0.192</PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>
+            <PDBo:chem_comp_atom.pdbx_ordinal>13</PDBo:chem_comp_atom.pdbx_ordinal>
+            <PDBo:chem_comp_atom.pdbx_stereo_config>N</PDBo:chem_comp_atom.pdbx_stereo_config>
+            <PDBo:chem_comp_atom.type_symbol>H</PDBo:chem_comp_atom.type_symbol>
+          </PDBo:chem_comp_atom>
+        </PDBo:has_chem_comp_atom>
+        <PDBo:has_chem_comp_atom>
+          <PDBo:chem_comp_atom rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/H3,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_atom rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_atom/H3,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:chem_comp_atom.atom_id>H3</PDBo:chem_comp_atom.atom_id>
+            <PDBo:chem_comp_atom.comp_id>010</PDBo:chem_comp_atom.comp_id>
+            <PDBo:chem_comp_atom.alt_atom_id>H3</PDBo:chem_comp_atom.alt_atom_id>
+            <PDBo:chem_comp_atom.charge>0</PDBo:chem_comp_atom.charge>
+            <PDBo:chem_comp_atom.model_Cartn_x>35.782</PDBo:chem_comp_atom.model_Cartn_x>
+            <PDBo:chem_comp_atom.model_Cartn_y>40.705</PDBo:chem_comp_atom.model_Cartn_y>
+            <PDBo:chem_comp_atom.model_Cartn_z>38.919</PDBo:chem_comp_atom.model_Cartn_z>
+            <PDBo:chem_comp_atom.pdbx_align>1</PDBo:chem_comp_atom.pdbx_align>
+            <PDBo:chem_comp_atom.pdbx_aromatic_flag>N</PDBo:chem_comp_atom.pdbx_aromatic_flag>
+            <PDBo:chem_comp_atom.pdbx_component_atom_id>H3</PDBo:chem_comp_atom.pdbx_component_atom_id>
+            <PDBo:chem_comp_atom.pdbx_component_comp_id>010</PDBo:chem_comp_atom.pdbx_component_comp_id>
+            <PDBo:chem_comp_atom.pdbx_leaving_atom_flag>N</PDBo:chem_comp_atom.pdbx_leaving_atom_flag>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>-3.340</PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>-0.003</PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>0.413</PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>
+            <PDBo:chem_comp_atom.pdbx_ordinal>14</PDBo:chem_comp_atom.pdbx_ordinal>
+            <PDBo:chem_comp_atom.pdbx_stereo_config>N</PDBo:chem_comp_atom.pdbx_stereo_config>
+            <PDBo:chem_comp_atom.type_symbol>H</PDBo:chem_comp_atom.type_symbol>
+          </PDBo:chem_comp_atom>
+        </PDBo:has_chem_comp_atom>
+        <PDBo:has_chem_comp_atom>
+          <PDBo:chem_comp_atom rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/H4,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_atom rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_atom/H4,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:chem_comp_atom.atom_id>H4</PDBo:chem_comp_atom.atom_id>
+            <PDBo:chem_comp_atom.comp_id>010</PDBo:chem_comp_atom.comp_id>
+            <PDBo:chem_comp_atom.alt_atom_id>H4</PDBo:chem_comp_atom.alt_atom_id>
+            <PDBo:chem_comp_atom.charge>0</PDBo:chem_comp_atom.charge>
+            <PDBo:chem_comp_atom.model_Cartn_x>35.637</PDBo:chem_comp_atom.model_Cartn_x>
+            <PDBo:chem_comp_atom.model_Cartn_y>38.178</PDBo:chem_comp_atom.model_Cartn_y>
+            <PDBo:chem_comp_atom.model_Cartn_z>38.585</PDBo:chem_comp_atom.model_Cartn_z>
+            <PDBo:chem_comp_atom.pdbx_align>1</PDBo:chem_comp_atom.pdbx_align>
+            <PDBo:chem_comp_atom.pdbx_aromatic_flag>N</PDBo:chem_comp_atom.pdbx_aromatic_flag>
+            <PDBo:chem_comp_atom.pdbx_component_atom_id>H4</PDBo:chem_comp_atom.pdbx_component_atom_id>
+            <PDBo:chem_comp_atom.pdbx_component_comp_id>010</PDBo:chem_comp_atom.pdbx_component_comp_id>
+            <PDBo:chem_comp_atom.pdbx_leaving_atom_flag>N</PDBo:chem_comp_atom.pdbx_leaving_atom_flag>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>-2.126</PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>-2.134</PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>0.188</PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>
+            <PDBo:chem_comp_atom.pdbx_ordinal>15</PDBo:chem_comp_atom.pdbx_ordinal>
+            <PDBo:chem_comp_atom.pdbx_stereo_config>N</PDBo:chem_comp_atom.pdbx_stereo_config>
+            <PDBo:chem_comp_atom.type_symbol>H</PDBo:chem_comp_atom.type_symbol>
+          </PDBo:chem_comp_atom>
+        </PDBo:has_chem_comp_atom>
+        <PDBo:has_chem_comp_atom>
+          <PDBo:chem_comp_atom rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/H5,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_atom rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_atom/H5,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:chem_comp_atom.atom_id>H5</PDBo:chem_comp_atom.atom_id>
+            <PDBo:chem_comp_atom.comp_id>010</PDBo:chem_comp_atom.comp_id>
+            <PDBo:chem_comp_atom.alt_atom_id>H5</PDBo:chem_comp_atom.alt_atom_id>
+            <PDBo:chem_comp_atom.charge>0</PDBo:chem_comp_atom.charge>
+            <PDBo:chem_comp_atom.model_Cartn_x>36.040</PDBo:chem_comp_atom.model_Cartn_x>
+            <PDBo:chem_comp_atom.model_Cartn_y>37.177</PDBo:chem_comp_atom.model_Cartn_y>
+            <PDBo:chem_comp_atom.model_Cartn_z>36.277</PDBo:chem_comp_atom.model_Cartn_z>
+            <PDBo:chem_comp_atom.pdbx_align>1</PDBo:chem_comp_atom.pdbx_align>
+            <PDBo:chem_comp_atom.pdbx_aromatic_flag>N</PDBo:chem_comp_atom.pdbx_aromatic_flag>
+            <PDBo:chem_comp_atom.pdbx_component_atom_id>H5</PDBo:chem_comp_atom.pdbx_component_atom_id>
+            <PDBo:chem_comp_atom.pdbx_component_comp_id>010</PDBo:chem_comp_atom.pdbx_component_comp_id>
+            <PDBo:chem_comp_atom.pdbx_leaving_atom_flag>N</PDBo:chem_comp_atom.pdbx_leaving_atom_flag>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>0.295</PDBo:chem_comp_atom.pdbx_model_Cartn_x_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>-2.131</PDBo:chem_comp_atom.pdbx_model_Cartn_y_ideal>
+            <PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>-0.260</PDBo:chem_comp_atom.pdbx_model_Cartn_z_ideal>
+            <PDBo:chem_comp_atom.pdbx_ordinal>16</PDBo:chem_comp_atom.pdbx_ordinal>
+            <PDBo:chem_comp_atom.pdbx_stereo_config>N</PDBo:chem_comp_atom.pdbx_stereo_config>
+            <PDBo:chem_comp_atom.type_symbol>H</PDBo:chem_comp_atom.type_symbol>
+          </PDBo:chem_comp_atom>
+        </PDBo:has_chem_comp_atom>
+      </PDBo:chem_comp_atomCategory>
+    </PDBo:has_chem_comp_atomCategory>
+    <PDBo:has_chem_comp_bondCategory>
+      <PDBo:chem_comp_bondCategory rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_bondCategory">
+        <PDBo:has_chem_comp_bond>
+          <PDBo:chem_comp_bond rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_bond/O,C,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/O,C,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/O,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/O,C,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/O,C,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:chem_comp_bond.atom_id_1>O</PDBo:chem_comp_bond.atom_id_1>
+            <PDBo:chem_comp_bond.atom_id_2>C</PDBo:chem_comp_bond.atom_id_2>
+            <PDBo:chem_comp_bond.comp_id>010</PDBo:chem_comp_bond.comp_id>
+            <PDBo:chem_comp_bond.pdbx_aromatic_flag>N</PDBo:chem_comp_bond.pdbx_aromatic_flag>
+            <PDBo:chem_comp_bond.pdbx_ordinal>1</PDBo:chem_comp_bond.pdbx_ordinal>
+            <PDBo:chem_comp_bond.pdbx_stereo_config>N</PDBo:chem_comp_bond.pdbx_stereo_config>
+            <PDBo:chem_comp_bond.value_order>sing</PDBo:chem_comp_bond.value_order>
+          </PDBo:chem_comp_bond>
+        </PDBo:has_chem_comp_bond>
+        <PDBo:has_chem_comp_bond>
+          <PDBo:chem_comp_bond rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C,C6,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C,C6,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C,C6,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C6,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C,C6,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:chem_comp_bond.atom_id_1>C</PDBo:chem_comp_bond.atom_id_1>
+            <PDBo:chem_comp_bond.atom_id_2>C6</PDBo:chem_comp_bond.atom_id_2>
+            <PDBo:chem_comp_bond.comp_id>010</PDBo:chem_comp_bond.comp_id>
+            <PDBo:chem_comp_bond.pdbx_aromatic_flag>N</PDBo:chem_comp_bond.pdbx_aromatic_flag>
+            <PDBo:chem_comp_bond.pdbx_ordinal>2</PDBo:chem_comp_bond.pdbx_ordinal>
+            <PDBo:chem_comp_bond.pdbx_stereo_config>N</PDBo:chem_comp_bond.pdbx_stereo_config>
+            <PDBo:chem_comp_bond.value_order>sing</PDBo:chem_comp_bond.value_order>
+          </PDBo:chem_comp_bond>
+        </PDBo:has_chem_comp_bond>
+        <PDBo:has_chem_comp_bond>
+          <PDBo:chem_comp_bond rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C,H,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C,H,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C,H,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/H,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C,H,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:chem_comp_bond.atom_id_1>C</PDBo:chem_comp_bond.atom_id_1>
+            <PDBo:chem_comp_bond.atom_id_2>H</PDBo:chem_comp_bond.atom_id_2>
+            <PDBo:chem_comp_bond.comp_id>010</PDBo:chem_comp_bond.comp_id>
+            <PDBo:chem_comp_bond.pdbx_aromatic_flag>N</PDBo:chem_comp_bond.pdbx_aromatic_flag>
+            <PDBo:chem_comp_bond.pdbx_ordinal>3</PDBo:chem_comp_bond.pdbx_ordinal>
+            <PDBo:chem_comp_bond.pdbx_stereo_config>N</PDBo:chem_comp_bond.pdbx_stereo_config>
+            <PDBo:chem_comp_bond.value_order>sing</PDBo:chem_comp_bond.value_order>
+          </PDBo:chem_comp_bond>
+        </PDBo:has_chem_comp_bond>
+        <PDBo:has_chem_comp_bond>
+          <PDBo:chem_comp_bond rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C,HA,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C,HA,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C,HA,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/HA,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C,HA,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:chem_comp_bond.atom_id_1>C</PDBo:chem_comp_bond.atom_id_1>
+            <PDBo:chem_comp_bond.atom_id_2>HA</PDBo:chem_comp_bond.atom_id_2>
+            <PDBo:chem_comp_bond.comp_id>010</PDBo:chem_comp_bond.comp_id>
+            <PDBo:chem_comp_bond.pdbx_aromatic_flag>N</PDBo:chem_comp_bond.pdbx_aromatic_flag>
+            <PDBo:chem_comp_bond.pdbx_ordinal>4</PDBo:chem_comp_bond.pdbx_ordinal>
+            <PDBo:chem_comp_bond.pdbx_stereo_config>N</PDBo:chem_comp_bond.pdbx_stereo_config>
+            <PDBo:chem_comp_bond.value_order>sing</PDBo:chem_comp_bond.value_order>
+          </PDBo:chem_comp_bond>
+        </PDBo:has_chem_comp_bond>
+        <PDBo:has_chem_comp_bond>
+          <PDBo:chem_comp_bond rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_bond/O,HO,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/O,HO,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/O,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/O,HO,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/HO,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/O,HO,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:chem_comp_bond.atom_id_1>O</PDBo:chem_comp_bond.atom_id_1>
+            <PDBo:chem_comp_bond.atom_id_2>HO</PDBo:chem_comp_bond.atom_id_2>
+            <PDBo:chem_comp_bond.comp_id>010</PDBo:chem_comp_bond.comp_id>
+            <PDBo:chem_comp_bond.pdbx_aromatic_flag>N</PDBo:chem_comp_bond.pdbx_aromatic_flag>
+            <PDBo:chem_comp_bond.pdbx_ordinal>5</PDBo:chem_comp_bond.pdbx_ordinal>
+            <PDBo:chem_comp_bond.pdbx_stereo_config>N</PDBo:chem_comp_bond.pdbx_stereo_config>
+            <PDBo:chem_comp_bond.value_order>sing</PDBo:chem_comp_bond.value_order>
+          </PDBo:chem_comp_bond>
+        </PDBo:has_chem_comp_bond>
+        <PDBo:has_chem_comp_bond>
+          <PDBo:chem_comp_bond rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C6,C1,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C6,C1,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C6,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C6,C1,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C1,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C6,C1,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:chem_comp_bond.atom_id_1>C6</PDBo:chem_comp_bond.atom_id_1>
+            <PDBo:chem_comp_bond.atom_id_2>C1</PDBo:chem_comp_bond.atom_id_2>
+            <PDBo:chem_comp_bond.comp_id>010</PDBo:chem_comp_bond.comp_id>
+            <PDBo:chem_comp_bond.pdbx_aromatic_flag>Y</PDBo:chem_comp_bond.pdbx_aromatic_flag>
+            <PDBo:chem_comp_bond.pdbx_ordinal>6</PDBo:chem_comp_bond.pdbx_ordinal>
+            <PDBo:chem_comp_bond.pdbx_stereo_config>N</PDBo:chem_comp_bond.pdbx_stereo_config>
+            <PDBo:chem_comp_bond.value_order>doub</PDBo:chem_comp_bond.value_order>
+          </PDBo:chem_comp_bond>
+        </PDBo:has_chem_comp_bond>
+        <PDBo:has_chem_comp_bond>
+          <PDBo:chem_comp_bond rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C1,C2,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C1,C2,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C1,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C1,C2,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C2,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C1,C2,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:chem_comp_bond.atom_id_1>C1</PDBo:chem_comp_bond.atom_id_1>
+            <PDBo:chem_comp_bond.atom_id_2>C2</PDBo:chem_comp_bond.atom_id_2>
+            <PDBo:chem_comp_bond.comp_id>010</PDBo:chem_comp_bond.comp_id>
+            <PDBo:chem_comp_bond.pdbx_aromatic_flag>Y</PDBo:chem_comp_bond.pdbx_aromatic_flag>
+            <PDBo:chem_comp_bond.pdbx_ordinal>7</PDBo:chem_comp_bond.pdbx_ordinal>
+            <PDBo:chem_comp_bond.pdbx_stereo_config>N</PDBo:chem_comp_bond.pdbx_stereo_config>
+            <PDBo:chem_comp_bond.value_order>sing</PDBo:chem_comp_bond.value_order>
+          </PDBo:chem_comp_bond>
+        </PDBo:has_chem_comp_bond>
+        <PDBo:has_chem_comp_bond>
+          <PDBo:chem_comp_bond rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C1,H1,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C1,H1,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C1,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C1,H1,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/H1,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C1,H1,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:chem_comp_bond.atom_id_1>C1</PDBo:chem_comp_bond.atom_id_1>
+            <PDBo:chem_comp_bond.atom_id_2>H1</PDBo:chem_comp_bond.atom_id_2>
+            <PDBo:chem_comp_bond.comp_id>010</PDBo:chem_comp_bond.comp_id>
+            <PDBo:chem_comp_bond.pdbx_aromatic_flag>N</PDBo:chem_comp_bond.pdbx_aromatic_flag>
+            <PDBo:chem_comp_bond.pdbx_ordinal>8</PDBo:chem_comp_bond.pdbx_ordinal>
+            <PDBo:chem_comp_bond.pdbx_stereo_config>N</PDBo:chem_comp_bond.pdbx_stereo_config>
+            <PDBo:chem_comp_bond.value_order>sing</PDBo:chem_comp_bond.value_order>
+          </PDBo:chem_comp_bond>
+        </PDBo:has_chem_comp_bond>
+        <PDBo:has_chem_comp_bond>
+          <PDBo:chem_comp_bond rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C2,C3,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C2,C3,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C2,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C2,C3,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C3,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C2,C3,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:chem_comp_bond.atom_id_1>C2</PDBo:chem_comp_bond.atom_id_1>
+            <PDBo:chem_comp_bond.atom_id_2>C3</PDBo:chem_comp_bond.atom_id_2>
+            <PDBo:chem_comp_bond.comp_id>010</PDBo:chem_comp_bond.comp_id>
+            <PDBo:chem_comp_bond.pdbx_aromatic_flag>Y</PDBo:chem_comp_bond.pdbx_aromatic_flag>
+            <PDBo:chem_comp_bond.pdbx_ordinal>9</PDBo:chem_comp_bond.pdbx_ordinal>
+            <PDBo:chem_comp_bond.pdbx_stereo_config>N</PDBo:chem_comp_bond.pdbx_stereo_config>
+            <PDBo:chem_comp_bond.value_order>doub</PDBo:chem_comp_bond.value_order>
+          </PDBo:chem_comp_bond>
+        </PDBo:has_chem_comp_bond>
+        <PDBo:has_chem_comp_bond>
+          <PDBo:chem_comp_bond rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C2,H2,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C2,H2,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C2,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C2,H2,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/H2,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C2,H2,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:chem_comp_bond.atom_id_1>C2</PDBo:chem_comp_bond.atom_id_1>
+            <PDBo:chem_comp_bond.atom_id_2>H2</PDBo:chem_comp_bond.atom_id_2>
+            <PDBo:chem_comp_bond.comp_id>010</PDBo:chem_comp_bond.comp_id>
+            <PDBo:chem_comp_bond.pdbx_aromatic_flag>N</PDBo:chem_comp_bond.pdbx_aromatic_flag>
+            <PDBo:chem_comp_bond.pdbx_ordinal>10</PDBo:chem_comp_bond.pdbx_ordinal>
+            <PDBo:chem_comp_bond.pdbx_stereo_config>N</PDBo:chem_comp_bond.pdbx_stereo_config>
+            <PDBo:chem_comp_bond.value_order>sing</PDBo:chem_comp_bond.value_order>
+          </PDBo:chem_comp_bond>
+        </PDBo:has_chem_comp_bond>
+        <PDBo:has_chem_comp_bond>
+          <PDBo:chem_comp_bond rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C4,C3,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C4,C3,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C4,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C4,C3,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C3,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C4,C3,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:chem_comp_bond.atom_id_1>C4</PDBo:chem_comp_bond.atom_id_1>
+            <PDBo:chem_comp_bond.atom_id_2>C3</PDBo:chem_comp_bond.atom_id_2>
+            <PDBo:chem_comp_bond.comp_id>010</PDBo:chem_comp_bond.comp_id>
+            <PDBo:chem_comp_bond.pdbx_aromatic_flag>Y</PDBo:chem_comp_bond.pdbx_aromatic_flag>
+            <PDBo:chem_comp_bond.pdbx_ordinal>11</PDBo:chem_comp_bond.pdbx_ordinal>
+            <PDBo:chem_comp_bond.pdbx_stereo_config>N</PDBo:chem_comp_bond.pdbx_stereo_config>
+            <PDBo:chem_comp_bond.value_order>sing</PDBo:chem_comp_bond.value_order>
+          </PDBo:chem_comp_bond>
+        </PDBo:has_chem_comp_bond>
+        <PDBo:has_chem_comp_bond>
+          <PDBo:chem_comp_bond rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C3,H3,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C3,H3,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C3,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C3,H3,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/H3,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C3,H3,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:chem_comp_bond.atom_id_1>C3</PDBo:chem_comp_bond.atom_id_1>
+            <PDBo:chem_comp_bond.atom_id_2>H3</PDBo:chem_comp_bond.atom_id_2>
+            <PDBo:chem_comp_bond.comp_id>010</PDBo:chem_comp_bond.comp_id>
+            <PDBo:chem_comp_bond.pdbx_aromatic_flag>N</PDBo:chem_comp_bond.pdbx_aromatic_flag>
+            <PDBo:chem_comp_bond.pdbx_ordinal>12</PDBo:chem_comp_bond.pdbx_ordinal>
+            <PDBo:chem_comp_bond.pdbx_stereo_config>N</PDBo:chem_comp_bond.pdbx_stereo_config>
+            <PDBo:chem_comp_bond.value_order>sing</PDBo:chem_comp_bond.value_order>
+          </PDBo:chem_comp_bond>
+        </PDBo:has_chem_comp_bond>
+        <PDBo:has_chem_comp_bond>
+          <PDBo:chem_comp_bond rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C5,C4,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C5,C4,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C5,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C5,C4,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C4,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C5,C4,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:chem_comp_bond.atom_id_1>C5</PDBo:chem_comp_bond.atom_id_1>
+            <PDBo:chem_comp_bond.atom_id_2>C4</PDBo:chem_comp_bond.atom_id_2>
+            <PDBo:chem_comp_bond.comp_id>010</PDBo:chem_comp_bond.comp_id>
+            <PDBo:chem_comp_bond.pdbx_aromatic_flag>Y</PDBo:chem_comp_bond.pdbx_aromatic_flag>
+            <PDBo:chem_comp_bond.pdbx_ordinal>13</PDBo:chem_comp_bond.pdbx_ordinal>
+            <PDBo:chem_comp_bond.pdbx_stereo_config>N</PDBo:chem_comp_bond.pdbx_stereo_config>
+            <PDBo:chem_comp_bond.value_order>doub</PDBo:chem_comp_bond.value_order>
+          </PDBo:chem_comp_bond>
+        </PDBo:has_chem_comp_bond>
+        <PDBo:has_chem_comp_bond>
+          <PDBo:chem_comp_bond rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C4,H4,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C4,H4,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C4,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C4,H4,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/H4,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C4,H4,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:chem_comp_bond.atom_id_1>C4</PDBo:chem_comp_bond.atom_id_1>
+            <PDBo:chem_comp_bond.atom_id_2>H4</PDBo:chem_comp_bond.atom_id_2>
+            <PDBo:chem_comp_bond.comp_id>010</PDBo:chem_comp_bond.comp_id>
+            <PDBo:chem_comp_bond.pdbx_aromatic_flag>N</PDBo:chem_comp_bond.pdbx_aromatic_flag>
+            <PDBo:chem_comp_bond.pdbx_ordinal>14</PDBo:chem_comp_bond.pdbx_ordinal>
+            <PDBo:chem_comp_bond.pdbx_stereo_config>N</PDBo:chem_comp_bond.pdbx_stereo_config>
+            <PDBo:chem_comp_bond.value_order>sing</PDBo:chem_comp_bond.value_order>
+          </PDBo:chem_comp_bond>
+        </PDBo:has_chem_comp_bond>
+        <PDBo:has_chem_comp_bond>
+          <PDBo:chem_comp_bond rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C6,C5,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C6,C5,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C6,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C6,C5,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C5,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C6,C5,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:chem_comp_bond.atom_id_1>C6</PDBo:chem_comp_bond.atom_id_1>
+            <PDBo:chem_comp_bond.atom_id_2>C5</PDBo:chem_comp_bond.atom_id_2>
+            <PDBo:chem_comp_bond.comp_id>010</PDBo:chem_comp_bond.comp_id>
+            <PDBo:chem_comp_bond.pdbx_aromatic_flag>Y</PDBo:chem_comp_bond.pdbx_aromatic_flag>
+            <PDBo:chem_comp_bond.pdbx_ordinal>15</PDBo:chem_comp_bond.pdbx_ordinal>
+            <PDBo:chem_comp_bond.pdbx_stereo_config>N</PDBo:chem_comp_bond.pdbx_stereo_config>
+            <PDBo:chem_comp_bond.value_order>sing</PDBo:chem_comp_bond.value_order>
+          </PDBo:chem_comp_bond>
+        </PDBo:has_chem_comp_bond>
+        <PDBo:has_chem_comp_bond>
+          <PDBo:chem_comp_bond rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C5,H5,010">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C5,H5,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/C5,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C5,H5,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:reference_to_chem_comp_atom>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp_atom/H5,010">
+                <PDBo:referenced_by_chem_comp_bond rdf:resource="http://rdf.wwpdb.org/cc/010/chem_comp_bond/C5,H5,010"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp_atom>
+            <PDBo:chem_comp_bond.atom_id_1>C5</PDBo:chem_comp_bond.atom_id_1>
+            <PDBo:chem_comp_bond.atom_id_2>H5</PDBo:chem_comp_bond.atom_id_2>
+            <PDBo:chem_comp_bond.comp_id>010</PDBo:chem_comp_bond.comp_id>
+            <PDBo:chem_comp_bond.pdbx_aromatic_flag>N</PDBo:chem_comp_bond.pdbx_aromatic_flag>
+            <PDBo:chem_comp_bond.pdbx_ordinal>16</PDBo:chem_comp_bond.pdbx_ordinal>
+            <PDBo:chem_comp_bond.pdbx_stereo_config>N</PDBo:chem_comp_bond.pdbx_stereo_config>
+            <PDBo:chem_comp_bond.value_order>sing</PDBo:chem_comp_bond.value_order>
+          </PDBo:chem_comp_bond>
+        </PDBo:has_chem_comp_bond>
+      </PDBo:chem_comp_bondCategory>
+    </PDBo:has_chem_comp_bondCategory>
+    <PDBo:has_pdbx_chem_comp_auditCategory>
+      <PDBo:pdbx_chem_comp_auditCategory rdf:about="http://rdf.wwpdb.org/cc/010/pdbx_chem_comp_auditCategory">
+        <PDBo:has_pdbx_chem_comp_audit>
+          <PDBo:pdbx_chem_comp_audit rdf:about="http://rdf.wwpdb.org/cc/010/pdbx_chem_comp_audit/Create_component,010,2010-11-15">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_pdbx_chem_comp_audit rdf:resource="http://rdf.wwpdb.org/cc/010/pdbx_chem_comp_audit/Create_component,010,2010-11-15"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:pdbx_chem_comp_audit.action_type>Create component</PDBo:pdbx_chem_comp_audit.action_type>
+            <PDBo:pdbx_chem_comp_audit.comp_id>010</PDBo:pdbx_chem_comp_audit.comp_id>
+            <PDBo:pdbx_chem_comp_audit.date>2010-11-15</PDBo:pdbx_chem_comp_audit.date>
+            <PDBo:pdbx_chem_comp_audit.processing_site>RCSB</PDBo:pdbx_chem_comp_audit.processing_site>
+          </PDBo:pdbx_chem_comp_audit>
+        </PDBo:has_pdbx_chem_comp_audit>
+        <PDBo:has_pdbx_chem_comp_audit>
+          <PDBo:pdbx_chem_comp_audit rdf:about="http://rdf.wwpdb.org/cc/010/pdbx_chem_comp_audit/Modify_aromatic_flag,010,2011-06-04">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_pdbx_chem_comp_audit rdf:resource="http://rdf.wwpdb.org/cc/010/pdbx_chem_comp_audit/Modify_aromatic_flag,010,2011-06-04"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:pdbx_chem_comp_audit.action_type>Modify aromatic_flag</PDBo:pdbx_chem_comp_audit.action_type>
+            <PDBo:pdbx_chem_comp_audit.comp_id>010</PDBo:pdbx_chem_comp_audit.comp_id>
+            <PDBo:pdbx_chem_comp_audit.date>2011-06-04</PDBo:pdbx_chem_comp_audit.date>
+            <PDBo:pdbx_chem_comp_audit.processing_site>RCSB</PDBo:pdbx_chem_comp_audit.processing_site>
+          </PDBo:pdbx_chem_comp_audit>
+        </PDBo:has_pdbx_chem_comp_audit>
+        <PDBo:has_pdbx_chem_comp_audit>
+          <PDBo:pdbx_chem_comp_audit rdf:about="http://rdf.wwpdb.org/cc/010/pdbx_chem_comp_audit/Modify_descriptor,010,2011-06-04">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_pdbx_chem_comp_audit rdf:resource="http://rdf.wwpdb.org/cc/010/pdbx_chem_comp_audit/Modify_descriptor,010,2011-06-04"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:pdbx_chem_comp_audit.action_type>Modify descriptor</PDBo:pdbx_chem_comp_audit.action_type>
+            <PDBo:pdbx_chem_comp_audit.comp_id>010</PDBo:pdbx_chem_comp_audit.comp_id>
+            <PDBo:pdbx_chem_comp_audit.date>2011-06-04</PDBo:pdbx_chem_comp_audit.date>
+            <PDBo:pdbx_chem_comp_audit.processing_site>RCSB</PDBo:pdbx_chem_comp_audit.processing_site>
+          </PDBo:pdbx_chem_comp_audit>
+        </PDBo:has_pdbx_chem_comp_audit>
+        <PDBo:has_pdbx_chem_comp_audit>
+          <PDBo:pdbx_chem_comp_audit rdf:about="http://rdf.wwpdb.org/cc/010/pdbx_chem_comp_audit/Other_modification,010,2013-12-25">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_pdbx_chem_comp_audit rdf:resource="http://rdf.wwpdb.org/cc/010/pdbx_chem_comp_audit/Other_modification,010,2013-12-25"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:pdbx_chem_comp_audit.action_type>Other modification</PDBo:pdbx_chem_comp_audit.action_type>
+            <PDBo:pdbx_chem_comp_audit.comp_id>010</PDBo:pdbx_chem_comp_audit.comp_id>
+            <PDBo:pdbx_chem_comp_audit.date>2013-12-25</PDBo:pdbx_chem_comp_audit.date>
+            <PDBo:pdbx_chem_comp_audit.processing_site>RCSB</PDBo:pdbx_chem_comp_audit.processing_site>
+          </PDBo:pdbx_chem_comp_audit>
+        </PDBo:has_pdbx_chem_comp_audit>
+      </PDBo:pdbx_chem_comp_auditCategory>
+    </PDBo:has_pdbx_chem_comp_auditCategory>
+    <PDBo:has_pdbx_chem_comp_descriptorCategory>
+      <PDBo:pdbx_chem_comp_descriptorCategory rdf:about="http://rdf.wwpdb.org/cc/010/pdbx_chem_comp_descriptorCategory">
+        <PDBo:has_pdbx_chem_comp_descriptor>
+          <PDBo:pdbx_chem_comp_descriptor rdf:about="http://rdf.wwpdb.org/cc/010/pdbx_chem_comp_descriptor/010,ACDLabs,12.01,SMILES">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_pdbx_chem_comp_descriptor rdf:resource="http://rdf.wwpdb.org/cc/010/pdbx_chem_comp_descriptor/010,ACDLabs,12.01,SMILES"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:pdbx_chem_comp_descriptor.comp_id>010</PDBo:pdbx_chem_comp_descriptor.comp_id>
+            <PDBo:pdbx_chem_comp_descriptor.program>ACDLabs</PDBo:pdbx_chem_comp_descriptor.program>
+            <PDBo:pdbx_chem_comp_descriptor.program_version>12.01</PDBo:pdbx_chem_comp_descriptor.program_version>
+            <PDBo:pdbx_chem_comp_descriptor.type>SMILES</PDBo:pdbx_chem_comp_descriptor.type>
+            <PDBo:pdbx_chem_comp_descriptor.descriptor>OCc1ccccc1</PDBo:pdbx_chem_comp_descriptor.descriptor>
+          </PDBo:pdbx_chem_comp_descriptor>
+        </PDBo:has_pdbx_chem_comp_descriptor>
+        <PDBo:has_pdbx_chem_comp_descriptor>
+          <PDBo:pdbx_chem_comp_descriptor rdf:about="http://rdf.wwpdb.org/cc/010/pdbx_chem_comp_descriptor/010,CACTVS,3.370,SMILES_CANONICAL">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_pdbx_chem_comp_descriptor rdf:resource="http://rdf.wwpdb.org/cc/010/pdbx_chem_comp_descriptor/010,CACTVS,3.370,SMILES_CANONICAL"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:pdbx_chem_comp_descriptor.comp_id>010</PDBo:pdbx_chem_comp_descriptor.comp_id>
+            <PDBo:pdbx_chem_comp_descriptor.program>CACTVS</PDBo:pdbx_chem_comp_descriptor.program>
+            <PDBo:pdbx_chem_comp_descriptor.program_version>3.370</PDBo:pdbx_chem_comp_descriptor.program_version>
+            <PDBo:pdbx_chem_comp_descriptor.type>SMILES_CANONICAL</PDBo:pdbx_chem_comp_descriptor.type>
+            <PDBo:pdbx_chem_comp_descriptor.descriptor>OCc1ccccc1</PDBo:pdbx_chem_comp_descriptor.descriptor>
+          </PDBo:pdbx_chem_comp_descriptor>
+        </PDBo:has_pdbx_chem_comp_descriptor>
+        <PDBo:has_pdbx_chem_comp_descriptor>
+          <PDBo:pdbx_chem_comp_descriptor rdf:about="http://rdf.wwpdb.org/cc/010/pdbx_chem_comp_descriptor/010,CACTVS,3.370,SMILES">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_pdbx_chem_comp_descriptor rdf:resource="http://rdf.wwpdb.org/cc/010/pdbx_chem_comp_descriptor/010,CACTVS,3.370,SMILES"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:pdbx_chem_comp_descriptor.comp_id>010</PDBo:pdbx_chem_comp_descriptor.comp_id>
+            <PDBo:pdbx_chem_comp_descriptor.program>CACTVS</PDBo:pdbx_chem_comp_descriptor.program>
+            <PDBo:pdbx_chem_comp_descriptor.program_version>3.370</PDBo:pdbx_chem_comp_descriptor.program_version>
+            <PDBo:pdbx_chem_comp_descriptor.type>SMILES</PDBo:pdbx_chem_comp_descriptor.type>
+            <PDBo:pdbx_chem_comp_descriptor.descriptor>OCc1ccccc1</PDBo:pdbx_chem_comp_descriptor.descriptor>
+          </PDBo:pdbx_chem_comp_descriptor>
+        </PDBo:has_pdbx_chem_comp_descriptor>
+        <PDBo:has_pdbx_chem_comp_descriptor>
+          <PDBo:pdbx_chem_comp_descriptor rdf:about="http://rdf.wwpdb.org/cc/010/pdbx_chem_comp_descriptor/010,OpenEye_OEToolkits,1.7.0,SMILES_CANONICAL">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_pdbx_chem_comp_descriptor rdf:resource="http://rdf.wwpdb.org/cc/010/pdbx_chem_comp_descriptor/010,OpenEye_OEToolkits,1.7.0,SMILES_CANONICAL"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:pdbx_chem_comp_descriptor.comp_id>010</PDBo:pdbx_chem_comp_descriptor.comp_id>
+            <PDBo:pdbx_chem_comp_descriptor.program>OpenEye OEToolkits</PDBo:pdbx_chem_comp_descriptor.program>
+            <PDBo:pdbx_chem_comp_descriptor.program_version>1.7.0</PDBo:pdbx_chem_comp_descriptor.program_version>
+            <PDBo:pdbx_chem_comp_descriptor.type>SMILES_CANONICAL</PDBo:pdbx_chem_comp_descriptor.type>
+            <PDBo:pdbx_chem_comp_descriptor.descriptor>c1ccc(cc1)CO</PDBo:pdbx_chem_comp_descriptor.descriptor>
+          </PDBo:pdbx_chem_comp_descriptor>
+        </PDBo:has_pdbx_chem_comp_descriptor>
+        <PDBo:has_pdbx_chem_comp_descriptor>
+          <PDBo:pdbx_chem_comp_descriptor rdf:about="http://rdf.wwpdb.org/cc/010/pdbx_chem_comp_descriptor/010,OpenEye_OEToolkits,1.7.0,SMILES">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_pdbx_chem_comp_descriptor rdf:resource="http://rdf.wwpdb.org/cc/010/pdbx_chem_comp_descriptor/010,OpenEye_OEToolkits,1.7.0,SMILES"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:pdbx_chem_comp_descriptor.comp_id>010</PDBo:pdbx_chem_comp_descriptor.comp_id>
+            <PDBo:pdbx_chem_comp_descriptor.program>OpenEye OEToolkits</PDBo:pdbx_chem_comp_descriptor.program>
+            <PDBo:pdbx_chem_comp_descriptor.program_version>1.7.0</PDBo:pdbx_chem_comp_descriptor.program_version>
+            <PDBo:pdbx_chem_comp_descriptor.type>SMILES</PDBo:pdbx_chem_comp_descriptor.type>
+            <PDBo:pdbx_chem_comp_descriptor.descriptor>c1ccc(cc1)CO</PDBo:pdbx_chem_comp_descriptor.descriptor>
+          </PDBo:pdbx_chem_comp_descriptor>
+        </PDBo:has_pdbx_chem_comp_descriptor>
+        <PDBo:has_pdbx_chem_comp_descriptor>
+          <PDBo:pdbx_chem_comp_descriptor rdf:about="http://rdf.wwpdb.org/cc/010/pdbx_chem_comp_descriptor/010,InChI,1.03,InChI">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_pdbx_chem_comp_descriptor rdf:resource="http://rdf.wwpdb.org/cc/010/pdbx_chem_comp_descriptor/010,InChI,1.03,InChI"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:pdbx_chem_comp_descriptor.comp_id>010</PDBo:pdbx_chem_comp_descriptor.comp_id>
+            <PDBo:pdbx_chem_comp_descriptor.program>InChI</PDBo:pdbx_chem_comp_descriptor.program>
+            <PDBo:pdbx_chem_comp_descriptor.program_version>1.03</PDBo:pdbx_chem_comp_descriptor.program_version>
+            <PDBo:pdbx_chem_comp_descriptor.type>InChI</PDBo:pdbx_chem_comp_descriptor.type>
+            <PDBo:pdbx_chem_comp_descriptor.descriptor>InChI=1S/C7H8O/c8-6-7-4-2-1-3-5-7/h1-5,8H,6H2</PDBo:pdbx_chem_comp_descriptor.descriptor>
+          </PDBo:pdbx_chem_comp_descriptor>
+        </PDBo:has_pdbx_chem_comp_descriptor>
+        <PDBo:has_pdbx_chem_comp_descriptor>
+          <PDBo:pdbx_chem_comp_descriptor rdf:about="http://rdf.wwpdb.org/cc/010/pdbx_chem_comp_descriptor/010,InChI,1.03,InChIKey">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_pdbx_chem_comp_descriptor rdf:resource="http://rdf.wwpdb.org/cc/010/pdbx_chem_comp_descriptor/010,InChI,1.03,InChIKey"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:pdbx_chem_comp_descriptor.comp_id>010</PDBo:pdbx_chem_comp_descriptor.comp_id>
+            <PDBo:pdbx_chem_comp_descriptor.program>InChI</PDBo:pdbx_chem_comp_descriptor.program>
+            <PDBo:pdbx_chem_comp_descriptor.program_version>1.03</PDBo:pdbx_chem_comp_descriptor.program_version>
+            <PDBo:pdbx_chem_comp_descriptor.type>InChIKey</PDBo:pdbx_chem_comp_descriptor.type>
+            <PDBo:pdbx_chem_comp_descriptor.descriptor>WVDDGKGOMKODPV-UHFFFAOYSA-N</PDBo:pdbx_chem_comp_descriptor.descriptor>
+          </PDBo:pdbx_chem_comp_descriptor>
+        </PDBo:has_pdbx_chem_comp_descriptor>
+      </PDBo:pdbx_chem_comp_descriptorCategory>
+    </PDBo:has_pdbx_chem_comp_descriptorCategory>
+    <PDBo:has_pdbx_chem_comp_identifierCategory>
+      <PDBo:pdbx_chem_comp_identifierCategory rdf:about="http://rdf.wwpdb.org/cc/010/pdbx_chem_comp_identifierCategory">
+        <PDBo:has_pdbx_chem_comp_identifier>
+          <PDBo:pdbx_chem_comp_identifier rdf:about="http://rdf.wwpdb.org/cc/010/pdbx_chem_comp_identifier/010,ACDLabs,12.01,SYSTEMATIC_NAME">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_pdbx_chem_comp_identifier rdf:resource="http://rdf.wwpdb.org/cc/010/pdbx_chem_comp_identifier/010,ACDLabs,12.01,SYSTEMATIC_NAME"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:pdbx_chem_comp_identifier.comp_id>010</PDBo:pdbx_chem_comp_identifier.comp_id>
+            <PDBo:pdbx_chem_comp_identifier.program>ACDLabs</PDBo:pdbx_chem_comp_identifier.program>
+            <PDBo:pdbx_chem_comp_identifier.program_version>12.01</PDBo:pdbx_chem_comp_identifier.program_version>
+            <PDBo:pdbx_chem_comp_identifier.type>SYSTEMATIC NAME</PDBo:pdbx_chem_comp_identifier.type>
+            <PDBo:pdbx_chem_comp_identifier.identifier>phenylmethanol</PDBo:pdbx_chem_comp_identifier.identifier>
+          </PDBo:pdbx_chem_comp_identifier>
+        </PDBo:has_pdbx_chem_comp_identifier>
+        <PDBo:has_pdbx_chem_comp_identifier>
+          <PDBo:pdbx_chem_comp_identifier rdf:about="http://rdf.wwpdb.org/cc/010/pdbx_chem_comp_identifier/010,OpenEye_OEToolkits,1.7.0,SYSTEMATIC_NAME">
+            <PDBo:of_datablock rdf:resource="http://rdf.wwpdb.org/cc/010"/>
+            <PDBo:reference_to_chem_comp>
+              <rdf:Description rdf:about="http://rdf.wwpdb.org/cc/010/chem_comp/010">
+                <PDBo:referenced_by_pdbx_chem_comp_identifier rdf:resource="http://rdf.wwpdb.org/cc/010/pdbx_chem_comp_identifier/010,OpenEye_OEToolkits,1.7.0,SYSTEMATIC_NAME"/>
+              </rdf:Description>
+            </PDBo:reference_to_chem_comp>
+            <PDBo:pdbx_chem_comp_identifier.comp_id>010</PDBo:pdbx_chem_comp_identifier.comp_id>
+            <PDBo:pdbx_chem_comp_identifier.program>OpenEye OEToolkits</PDBo:pdbx_chem_comp_identifier.program>
+            <PDBo:pdbx_chem_comp_identifier.program_version>1.7.0</PDBo:pdbx_chem_comp_identifier.program_version>
+            <PDBo:pdbx_chem_comp_identifier.type>SYSTEMATIC NAME</PDBo:pdbx_chem_comp_identifier.type>
+            <PDBo:pdbx_chem_comp_identifier.identifier>phenylmethanol</PDBo:pdbx_chem_comp_identifier.identifier>
+          </PDBo:pdbx_chem_comp_identifier>
+        </PDBo:has_pdbx_chem_comp_identifier>
+      </PDBo:pdbx_chem_comp_identifierCategory>
+    </PDBo:has_pdbx_chem_comp_identifierCategory>
+  </PDBo:datablock>
+</rdf:RDF>

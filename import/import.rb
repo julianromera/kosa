@@ -1,20 +1,22 @@
 # #!/usr/bin/env ruby -EBINARY
 require 'rdf'
 require 'linkeddata'
+require 'data_objects'
 #require 'rdf/4store'
-require 'rdf/sesame'
+#require 'rdf/sesame'
 require 'rdf/ntriples'
 #require 'data_objects'
-#require 'do_sqlite3'
+require 'do_sqlite3'
 #require 'do_postgres'
-#require 'rdf/do'
+require 'rdf/do'
 require 'fileutils'
 
-# config 
+# config
 # Onntology = 'KOS' # <-- agrovoc
 # Ontology = 'cropontology'
 # Ontology = 'oedunet'
-Ontology = 'MolGermMapper'
+#Ontology = 'MolGermMapper'
+Ontology = '010'
 
 # ruby import.rb
 
@@ -25,8 +27,10 @@ end
 
 
 
-url = "http://127.0.0.1:8888/openrdf-sesame/repositories/#{Ontology}"
-repo = RDF::Sesame::Repository.new(url)
+#url = "http://127.0.0.1:8888/openrdf-sesame/repositories/#{Ontology}"
+#repo = RDF::Sesame::Repository.new(url)
+repo = RDF::DataObjects::Repository.new uri: "sqlite3:kosa.db"
+
 
 # repo = RDF::FourStore::Repository.new('http://127.0.0.1:8008/')
 # repo = RDF::DataObjects::Repository.new('sqlite3:kosa.db')
@@ -35,16 +39,17 @@ repo = RDF::Sesame::Repository.new(url)
 
 # repo.clear!
 
+repo.load(ARGV[0])
+
 count = repo.count
 puts "Loading data... (this may take some time)"
 
-RDF::Reader.open(ARGV[0]) do |reader|
-  reader.each_statement do |statement|
-    repo.insert(statement)
-  end
-end
+#RDF::Reader.open(ARGV[0]) do |reader|
+#  reader.each_statement do |statement|
+#    repo.insert(statement)
+#  end
+#end
 
-# repo.load('./co_010.rdf')
 
 # How many statements did we have?
 puts "Total records in database:"
