@@ -1,0 +1,721 @@
+<http://www.cropontology.org/rdf/ID:0000000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/ID:0000000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/ID:0000000> <http://www.w3.org/2000/01/rdf-schema#label> "persistent unique identifier"@en .
+<http://www.cropontology.org/rdf/ID:0000000> <http://www.w3.org/2004/02/skos/core#prefLabel> "persistent unique identifier"@en .
+<http://www.cropontology.org/rdf/ID:0000000> <http://www.w3.org/2004/02/skos/core#altLabel> "PUID RELATED []"@en .
+<http://www.cropontology.org/rdf/ID:0000000> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000074> .
+<http://www.cropontology.org/rdf/ID:0000000> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000074> .
+<http://www.cropontology.org/rdf/CO_020:0000110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000110> <http://www.w3.org/2000/01/rdf-schema#label> "99 Other"@en .
+<http://www.cropontology.org/rdf/CO_020:0000110> <http://www.w3.org/2004/02/skos/core#prefLabel> "99 Other"@en .
+<http://www.cropontology.org/rdf/CO_020:0000110> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000107> .
+<http://www.cropontology.org/rdf/CO_020:0000110> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000107> .
+<http://www.cropontology.org/rdf/CO_020:0000109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000109> <http://www.w3.org/2000/01/rdf-schema#label> "1 Yes"@en .
+<http://www.cropontology.org/rdf/CO_020:0000109> <http://www.w3.org/2004/02/skos/core#prefLabel> "1 Yes"@en .
+<http://www.cropontology.org/rdf/CO_020:0000109> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000107> .
+<http://www.cropontology.org/rdf/CO_020:0000109> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000107> .
+<http://www.cropontology.org/rdf/CO_020:0000108> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000108> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000108> <http://www.w3.org/2000/01/rdf-schema#label> "0 No"@en .
+<http://www.cropontology.org/rdf/CO_020:0000108> <http://www.w3.org/2004/02/skos/core#prefLabel> "0 No"@en .
+<http://www.cropontology.org/rdf/CO_020:0000108> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000107> .
+<http://www.cropontology.org/rdf/CO_020:0000108> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000107> .
+<http://www.cropontology.org/rdf/CO_020:0000107> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000107> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000107> <http://www.w3.org/2000/01/rdf-schema#label> "MLS status of the accession"@en .
+<http://www.cropontology.org/rdf/CO_020:0000107> <http://www.w3.org/2004/02/skos/core#prefLabel> "MLS status of the accession"@en .
+<http://www.cropontology.org/rdf/CO_020:0000107> <http://www.w3.org/2004/02/skos/core#altLabel> "MLSSTAT RELATED []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000107> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000074> .
+<http://www.cropontology.org/rdf/CO_020:0000107> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000074> .
+<http://www.cropontology.org/rdf/CO_020:0000106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000106> <http://www.w3.org/2000/01/rdf-schema#label> "50 DNA collection"@en .
+<http://www.cropontology.org/rdf/CO_020:0000106> <http://www.w3.org/2004/02/skos/core#prefLabel> "50 DNA collection"@en .
+<http://www.cropontology.org/rdf/CO_020:0000106> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000078> .
+<http://www.cropontology.org/rdf/CO_020:0000106> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000078> .
+<http://www.cropontology.org/rdf/CO_020:0000105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000105> <http://www.w3.org/2000/01/rdf-schema#label> "Institute maintaining safety duplicates"@en .
+<http://www.cropontology.org/rdf/CO_020:0000105> <http://www.w3.org/2004/02/skos/core#prefLabel> "Institute maintaining safety duplicates"@en .
+<http://www.cropontology.org/rdf/CO_020:0000105> <http://www.w3.org/2004/02/skos/core#altLabel> "DUPLINSTNAME RELATED []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000105> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000026> .
+<http://www.cropontology.org/rdf/CO_020:0000105> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000026> .
+<http://www.cropontology.org/rdf/CO_020:0000104> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000104> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000104> <http://www.w3.org/2000/01/rdf-schema#label> "donor institute name"@en .
+<http://www.cropontology.org/rdf/CO_020:0000104> <http://www.w3.org/2004/02/skos/core#prefLabel> "donor institute name"@en .
+<http://www.cropontology.org/rdf/CO_020:0000104> <http://www.w3.org/2004/02/skos/core#altLabel> "DONORNAME RELATED []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000104> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000023> .
+<http://www.cropontology.org/rdf/CO_020:0000104> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000023> .
+<http://www.cropontology.org/rdf/CO_020:0000103> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000103> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000103> <http://www.w3.org/2000/01/rdf-schema#label> "600 GMO"@en .
+<http://www.cropontology.org/rdf/CO_020:0000103> <http://www.w3.org/2004/02/skos/core#prefLabel> "600 GMO"@en .
+<http://www.cropontology.org/rdf/CO_020:0000103> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000075> .
+<http://www.cropontology.org/rdf/CO_020:0000103> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000075> .
+<http://www.cropontology.org/rdf/CO_020:0000102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000102> <http://www.w3.org/2000/01/rdf-schema#label> "423 Other genetic stocks"@en .
+<http://www.cropontology.org/rdf/CO_020:0000102> <http://www.w3.org/2004/02/skos/core#prefLabel> "423 Other genetic stocks"@en .
+<http://www.cropontology.org/rdf/CO_020:0000102> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000041> .
+<http://www.cropontology.org/rdf/CO_020:0000102> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000041> .
+<http://www.cropontology.org/rdf/CO_020:0000101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000101> <http://www.w3.org/2000/01/rdf-schema#label> "422 cytogenic stocks"@en .
+<http://www.cropontology.org/rdf/CO_020:0000101> <http://www.w3.org/2004/02/skos/core#prefLabel> "422 cytogenic stocks"@en .
+<http://www.cropontology.org/rdf/CO_020:0000101> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000041> .
+<http://www.cropontology.org/rdf/CO_020:0000101> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000041> .
+<http://www.cropontology.org/rdf/CO_020:0000100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000100> <http://www.w3.org/2000/01/rdf-schema#label> "421 mutant"@en .
+<http://www.cropontology.org/rdf/CO_020:0000100> <http://www.w3.org/2004/02/skos/core#prefLabel> "421 mutant"@en .
+<http://www.cropontology.org/rdf/CO_020:0000100> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000041> .
+<http://www.cropontology.org/rdf/CO_020:0000100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000041> .
+<http://www.cropontology.org/rdf/CO_020:0000099> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000099> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000099> <http://www.w3.org/2000/01/rdf-schema#label> "416 clonal selection"@en .
+<http://www.cropontology.org/rdf/CO_020:0000099> <http://www.w3.org/2004/02/skos/core#prefLabel> "416 clonal selection"@en .
+<http://www.cropontology.org/rdf/CO_020:0000099> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000035> .
+<http://www.cropontology.org/rdf/CO_020:0000099> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000035> .
+<http://www.cropontology.org/rdf/CO_020:0000098> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000098> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000098> <http://www.w3.org/2000/01/rdf-schema#label> "130 semi-natural or sown"@en .
+<http://www.cropontology.org/rdf/CO_020:0000098> <http://www.w3.org/2004/02/skos/core#prefLabel> "130 semi-natural or sown"@en .
+<http://www.cropontology.org/rdf/CO_020:0000098> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000029> .
+<http://www.cropontology.org/rdf/CO_020:0000098> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000029> .
+<http://www.cropontology.org/rdf/CO_020:0000097> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000097> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000097> <http://www.w3.org/2000/01/rdf-schema#label> "Breeding institute name"@en .
+<http://www.cropontology.org/rdf/CO_020:0000097> <http://www.w3.org/2004/02/skos/core#prefLabel> "Breeding institute name"@en .
+<http://www.cropontology.org/rdf/CO_020:0000097> <http://www.w3.org/2004/02/skos/core#altLabel> "BREDNAME RELATED []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000097> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000019> .
+<http://www.cropontology.org/rdf/CO_020:0000097> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000019> .
+<http://www.cropontology.org/rdf/CO_020:0000096> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000096> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000096> <http://www.w3.org/2000/01/rdf-schema#label> "georeferencing method"@en .
+<http://www.cropontology.org/rdf/CO_020:0000096> <http://www.w3.org/2004/02/skos/core#prefLabel> "georeferencing method"@en .
+<http://www.cropontology.org/rdf/CO_020:0000096> <http://www.w3.org/2004/02/skos/core#altLabel> "GEOREFMETH RELATED []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000096> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000087> .
+<http://www.cropontology.org/rdf/CO_020:0000096> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000087> .
+<http://www.cropontology.org/rdf/CO_020:0000095> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000095> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000095> <http://www.w3.org/2000/01/rdf-schema#label> "coordinate datum"@en .
+<http://www.cropontology.org/rdf/CO_020:0000095> <http://www.w3.org/2004/02/skos/core#prefLabel> "coordinate datum"@en .
+<http://www.cropontology.org/rdf/CO_020:0000095> <http://www.w3.org/2004/02/skos/core#altLabel> "COORDDATUM RELATED []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000095> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000087> .
+<http://www.cropontology.org/rdf/CO_020:0000095> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000087> .
+<http://www.cropontology.org/rdf/CO_020:0000094> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000094> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000094> <http://www.w3.org/2000/01/rdf-schema#label> "coordinate uncertainty"@en .
+<http://www.cropontology.org/rdf/CO_020:0000094> <http://www.w3.org/2004/02/skos/core#prefLabel> "coordinate uncertainty"@en .
+<http://www.cropontology.org/rdf/CO_020:0000094> <http://www.w3.org/2004/02/skos/core#altLabel> "COORDUNCERT RELATED []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000094> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000087> .
+<http://www.cropontology.org/rdf/CO_020:0000094> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000087> .
+<http://www.cropontology.org/rdf/CO_020:0000093> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000093> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000093> <http://www.w3.org/2000/01/rdf-schema#label> "longitude of collecting site (decimal degree)"@en .
+<http://www.cropontology.org/rdf/CO_020:0000093> <http://www.w3.org/2004/02/skos/core#prefLabel> "longitude of collecting site (decimal degree)"@en .
+<http://www.cropontology.org/rdf/CO_020:0000093> <http://www.w3.org/2004/02/skos/core#altLabel> "DECLONGITUDE RELATED []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000093> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000087> .
+<http://www.cropontology.org/rdf/CO_020:0000093> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000087> .
+<http://www.cropontology.org/rdf/CO_020:0000092> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000092> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000092> <http://www.w3.org/2000/01/rdf-schema#label> "latitude of collecting site (decimal degree)"@en .
+<http://www.cropontology.org/rdf/CO_020:0000092> <http://www.w3.org/2004/02/skos/core#prefLabel> "latitude of collecting site (decimal degree)"@en .
+<http://www.cropontology.org/rdf/CO_020:0000092> <http://www.w3.org/2004/02/skos/core#altLabel> "DECLATITUDE RELATED []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000092> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000087> .
+<http://www.cropontology.org/rdf/CO_020:0000092> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000087> .
+<http://www.cropontology.org/rdf/CO_020:0000091> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000091> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000091> <http://www.w3.org/2000/01/rdf-schema#label> "collecting mission identifier"@en .
+<http://www.cropontology.org/rdf/CO_020:0000091> <http://www.w3.org/2004/02/skos/core#prefLabel> "collecting mission identifier"@en .
+<http://www.cropontology.org/rdf/CO_020:0000091> <http://www.w3.org/2004/02/skos/core#altLabel> "COLLMISSID RELATED []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000091> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000088> .
+<http://www.cropontology.org/rdf/CO_020:0000091> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000088> .
+<http://www.cropontology.org/rdf/CO_020:0000090> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000090> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000090> <http://www.w3.org/2000/01/rdf-schema#label> "collecting institute address"@en .
+<http://www.cropontology.org/rdf/CO_020:0000090> <http://www.w3.org/2004/02/skos/core#prefLabel> "collecting institute address"@en .
+<http://www.cropontology.org/rdf/CO_020:0000090> <http://www.w3.org/2004/02/skos/core#altLabel> "COLLINSTADDRESS RELATED []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000090> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000088> .
+<http://www.cropontology.org/rdf/CO_020:0000090> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000088> .
+<http://www.cropontology.org/rdf/CO_020:0000089> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000089> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000089> <http://www.w3.org/2000/01/rdf-schema#label> "accession number"@en .
+<http://www.cropontology.org/rdf/CO_020:0000089> <http://www.w3.org/2004/02/skos/core#prefLabel> "accession number"@en .
+<http://www.cropontology.org/rdf/CO_020:0000089> <http://www.w3.org/2004/02/skos/core#altLabel> "(ACCENUMB) EXACT []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000089> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000079> .
+<http://www.cropontology.org/rdf/CO_020:0000089> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000079> .
+<http://www.cropontology.org/rdf/CO_020:0000088> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000088> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000088> <http://www.w3.org/2000/01/rdf-schema#label> "institute code"@en .
+<http://www.cropontology.org/rdf/CO_020:0000088> <http://www.w3.org/2004/02/skos/core#prefLabel> "institute code"@en .
+<http://www.cropontology.org/rdf/CO_020:0000088> <http://www.w3.org/2004/02/skos/core#altLabel> "(INSTCODE) EXACT []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000088> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000080> .
+<http://www.cropontology.org/rdf/CO_020:0000088> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000080> .
+<http://www.cropontology.org/rdf/CO_020:0000087> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000087> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000087> <http://www.w3.org/2000/01/rdf-schema#label> "location descriptor"@en .
+<http://www.cropontology.org/rdf/CO_020:0000087> <http://www.w3.org/2004/02/skos/core#prefLabel> "location descriptor"@en .
+<http://www.cropontology.org/rdf/CO_020:0000087> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000082> .
+<http://www.cropontology.org/rdf/CO_020:0000087> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000082> .
+<http://www.cropontology.org/rdf/CO_020:0000086> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000086> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000086> <http://www.w3.org/2000/01/rdf-schema#label> "date descriptor"@en .
+<http://www.cropontology.org/rdf/CO_020:0000086> <http://www.w3.org/2004/02/skos/core#prefLabel> "date descriptor"@en .
+<http://www.cropontology.org/rdf/CO_020:0000086> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000074> .
+<http://www.cropontology.org/rdf/CO_020:0000086> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000074> .
+<http://www.cropontology.org/rdf/CO_020:0000085> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000085> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000085> <http://www.w3.org/2000/01/rdf-schema#label> "CountryOfOriginCode"@en .
+<http://www.cropontology.org/rdf/CO_020:0000085> <http://www.w3.org/2004/02/skos/core#prefLabel> "CountryOfOriginCode"@en .
+<http://www.cropontology.org/rdf/CO_020:0000085> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000065> .
+<http://www.cropontology.org/rdf/CO_020:0000085> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000065> .
+<http://www.cropontology.org/rdf/CO_020:0000084> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000084> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000084> <http://www.w3.org/2000/01/rdf-schema#label> "InstituteCode"@en .
+<http://www.cropontology.org/rdf/CO_020:0000084> <http://www.w3.org/2004/02/skos/core#prefLabel> "InstituteCode"@en .
+<http://www.cropontology.org/rdf/CO_020:0000084> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000065> .
+<http://www.cropontology.org/rdf/CO_020:0000084> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000065> .
+<http://www.cropontology.org/rdf/CO_020:0000082> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000082> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000082> <http://www.w3.org/2000/01/rdf-schema#label> "origin descriptor"@en .
+<http://www.cropontology.org/rdf/CO_020:0000082> <http://www.w3.org/2004/02/skos/core#prefLabel> "origin descriptor"@en .
+<http://www.cropontology.org/rdf/CO_020:0000082> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000074> .
+<http://www.cropontology.org/rdf/CO_020:0000082> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000074> .
+<http://www.cropontology.org/rdf/CO_020:0000081> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000081> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000081> <http://www.w3.org/2000/01/rdf-schema#label> "taxonomy descriptor"@en .
+<http://www.cropontology.org/rdf/CO_020:0000081> <http://www.w3.org/2004/02/skos/core#prefLabel> "taxonomy descriptor"@en .
+<http://www.cropontology.org/rdf/CO_020:0000081> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000074> .
+<http://www.cropontology.org/rdf/CO_020:0000081> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000074> .
+<http://www.cropontology.org/rdf/CO_020:0000080> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000080> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000080> <http://www.w3.org/2000/01/rdf-schema#label> "institute descriptor"@en .
+<http://www.cropontology.org/rdf/CO_020:0000080> <http://www.w3.org/2004/02/skos/core#prefLabel> "institute descriptor"@en .
+<http://www.cropontology.org/rdf/CO_020:0000080> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000074> .
+<http://www.cropontology.org/rdf/CO_020:0000080> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000074> .
+<http://www.cropontology.org/rdf/CO_020:0000079> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000079> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000079> <http://www.w3.org/2000/01/rdf-schema#label> "germplasm identifier descriptor"@en .
+<http://www.cropontology.org/rdf/CO_020:0000079> <http://www.w3.org/2004/02/skos/core#prefLabel> "germplasm identifier descriptor"@en .
+<http://www.cropontology.org/rdf/CO_020:0000079> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000074> .
+<http://www.cropontology.org/rdf/CO_020:0000079> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000074> .
+<http://www.cropontology.org/rdf/CO_020:0000078> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000078> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000078> <http://www.w3.org/2000/01/rdf-schema#label> "TypeOfGermplasmStorageCode"@en .
+<http://www.cropontology.org/rdf/CO_020:0000078> <http://www.w3.org/2004/02/skos/core#prefLabel> "TypeOfGermplasmStorageCode"@en .
+<http://www.cropontology.org/rdf/CO_020:0000078> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000065> .
+<http://www.cropontology.org/rdf/CO_020:0000078> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000065> .
+<http://www.cropontology.org/rdf/CO_020:0000077> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000077> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000077> <http://www.w3.org/2000/01/rdf-schema#label> "99 other collecting or acquisition source"@en .
+<http://www.cropontology.org/rdf/CO_020:0000077> <http://www.w3.org/2004/02/skos/core#prefLabel> "99 other collecting or acquisition source"@en .
+<http://www.cropontology.org/rdf/CO_020:0000077> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000076> .
+<http://www.cropontology.org/rdf/CO_020:0000077> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000076> .
+<http://www.cropontology.org/rdf/CO_020:0000076> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000076> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000076> <http://www.w3.org/2000/01/rdf-schema#label> "CollectingOrAcquisitionSourceCode"@en .
+<http://www.cropontology.org/rdf/CO_020:0000076> <http://www.w3.org/2004/02/skos/core#prefLabel> "CollectingOrAcquisitionSourceCode"@en .
+<http://www.cropontology.org/rdf/CO_020:0000076> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000065> .
+<http://www.cropontology.org/rdf/CO_020:0000076> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000065> .
+<http://www.cropontology.org/rdf/CO_020:0000075> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000075> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000075> <http://www.w3.org/2000/01/rdf-schema#label> "BiologicalStatusOfAccessionCode"@en .
+<http://www.cropontology.org/rdf/CO_020:0000075> <http://www.w3.org/2004/02/skos/core#prefLabel> "BiologicalStatusOfAccessionCode"@en .
+<http://www.cropontology.org/rdf/CO_020:0000075> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000065> .
+<http://www.cropontology.org/rdf/CO_020:0000075> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000065> .
+<http://www.cropontology.org/rdf/CO_020:0000074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000074> <http://www.w3.org/2000/01/rdf-schema#label> "multicrop passport descriptor"@en .
+<http://www.cropontology.org/rdf/CO_020:0000074> <http://www.w3.org/2004/02/skos/core#prefLabel> "multicrop passport descriptor"@en .
+<http://www.cropontology.org/rdf/CO_020:0000074> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000000> .
+<http://www.cropontology.org/rdf/CO_020:0000074> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000000> .
+<http://www.cropontology.org/rdf/CO_020:0000073> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000073> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000073> <http://www.w3.org/2000/01/rdf-schema#label> "99 other type of germplasm storage"@en .
+<http://www.cropontology.org/rdf/CO_020:0000073> <http://www.w3.org/2004/02/skos/core#prefLabel> "99 other type of germplasm storage"@en .
+<http://www.cropontology.org/rdf/CO_020:0000073> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000078> .
+<http://www.cropontology.org/rdf/CO_020:0000073> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000078> .
+<http://www.cropontology.org/rdf/CO_020:0000072> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000072> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000072> <http://www.w3.org/2000/01/rdf-schema#label> "40 cryopreserved collection"@en .
+<http://www.cropontology.org/rdf/CO_020:0000072> <http://www.w3.org/2004/02/skos/core#prefLabel> "40 cryopreserved collection"@en .
+<http://www.cropontology.org/rdf/CO_020:0000072> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000078> .
+<http://www.cropontology.org/rdf/CO_020:0000072> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000078> .
+<http://www.cropontology.org/rdf/CO_020:0000071> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000071> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000071> <http://www.w3.org/2000/01/rdf-schema#label> "30 in vitro collection"@en .
+<http://www.cropontology.org/rdf/CO_020:0000071> <http://www.w3.org/2004/02/skos/core#prefLabel> "30 in vitro collection"@en .
+<http://www.cropontology.org/rdf/CO_020:0000071> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000078> .
+<http://www.cropontology.org/rdf/CO_020:0000071> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000078> .
+<http://www.cropontology.org/rdf/CO_020:0000070> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000070> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000070> <http://www.w3.org/2000/01/rdf-schema#label> "20 field collection"@en .
+<http://www.cropontology.org/rdf/CO_020:0000070> <http://www.w3.org/2004/02/skos/core#prefLabel> "20 field collection"@en .
+<http://www.cropontology.org/rdf/CO_020:0000070> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000078> .
+<http://www.cropontology.org/rdf/CO_020:0000070> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000078> .
+<http://www.cropontology.org/rdf/CO_020:0000069> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000069> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000069> <http://www.w3.org/2000/01/rdf-schema#label> "13 long term"@en .
+<http://www.cropontology.org/rdf/CO_020:0000069> <http://www.w3.org/2004/02/skos/core#prefLabel> "13 long term"@en .
+<http://www.cropontology.org/rdf/CO_020:0000069> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000066> .
+<http://www.cropontology.org/rdf/CO_020:0000069> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000066> .
+<http://www.cropontology.org/rdf/CO_020:0000068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000068> <http://www.w3.org/2000/01/rdf-schema#label> "12 medium term"@en .
+<http://www.cropontology.org/rdf/CO_020:0000068> <http://www.w3.org/2004/02/skos/core#prefLabel> "12 medium term"@en .
+<http://www.cropontology.org/rdf/CO_020:0000068> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000066> .
+<http://www.cropontology.org/rdf/CO_020:0000068> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000066> .
+<http://www.cropontology.org/rdf/CO_020:0000067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000067> <http://www.w3.org/2000/01/rdf-schema#label> "11short term"@en .
+<http://www.cropontology.org/rdf/CO_020:0000067> <http://www.w3.org/2004/02/skos/core#prefLabel> "11short term"@en .
+<http://www.cropontology.org/rdf/CO_020:0000067> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000066> .
+<http://www.cropontology.org/rdf/CO_020:0000067> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000066> .
+<http://www.cropontology.org/rdf/CO_020:0000066> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000066> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000066> <http://www.w3.org/2000/01/rdf-schema#label> "10 seed collection"@en .
+<http://www.cropontology.org/rdf/CO_020:0000066> <http://www.w3.org/2004/02/skos/core#prefLabel> "10 seed collection"@en .
+<http://www.cropontology.org/rdf/CO_020:0000066> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000078> .
+<http://www.cropontology.org/rdf/CO_020:0000066> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000078> .
+<http://www.cropontology.org/rdf/CO_020:0000065> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000065> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000065> <http://www.w3.org/2000/01/rdf-schema#label> "MultiCropPassportDescriptorCode"@en .
+<http://www.cropontology.org/rdf/CO_020:0000065> <http://www.w3.org/2004/02/skos/core#prefLabel> "MultiCropPassportDescriptorCode"@en .
+<http://www.cropontology.org/rdf/CO_020:0000065> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000000> .
+<http://www.cropontology.org/rdf/CO_020:0000065> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000000> .
+<http://www.cropontology.org/rdf/CO_020:0000064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000064> <http://www.w3.org/2000/01/rdf-schema#label> "62 field margin"@en .
+<http://www.cropontology.org/rdf/CO_020:0000064> <http://www.w3.org/2004/02/skos/core#prefLabel> "62 field margin"@en .
+<http://www.cropontology.org/rdf/CO_020:0000064> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000062> .
+<http://www.cropontology.org/rdf/CO_020:0000064> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000062> .
+<http://www.cropontology.org/rdf/CO_020:0000063> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000063> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000063> <http://www.w3.org/2000/01/rdf-schema#label> "61 roadside"@en .
+<http://www.cropontology.org/rdf/CO_020:0000063> <http://www.w3.org/2004/02/skos/core#prefLabel> "61 roadside"@en .
+<http://www.cropontology.org/rdf/CO_020:0000063> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000062> .
+<http://www.cropontology.org/rdf/CO_020:0000063> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000062> .
+<http://www.cropontology.org/rdf/CO_020:0000062> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000062> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000062> <http://www.w3.org/2000/01/rdf-schema#label> "60 weedy, disturbed or ruderal habitat"@en .
+<http://www.cropontology.org/rdf/CO_020:0000062> <http://www.w3.org/2004/02/skos/core#prefLabel> "60 weedy, disturbed or ruderal habitat"@en .
+<http://www.cropontology.org/rdf/CO_020:0000062> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000076> .
+<http://www.cropontology.org/rdf/CO_020:0000062> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000076> .
+<http://www.cropontology.org/rdf/CO_020:0000061> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000061> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000061> <http://www.w3.org/2000/01/rdf-schema#label> "50 seed company"@en .
+<http://www.cropontology.org/rdf/CO_020:0000061> <http://www.w3.org/2004/02/skos/core#prefLabel> "50 seed company"@en .
+<http://www.cropontology.org/rdf/CO_020:0000061> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000076> .
+<http://www.cropontology.org/rdf/CO_020:0000061> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000076> .
+<http://www.cropontology.org/rdf/CO_020:0000060> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000060> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000060> <http://www.w3.org/2000/01/rdf-schema#label> "40 institute, experimental station, research organization, genebank"@en .
+<http://www.cropontology.org/rdf/CO_020:0000060> <http://www.w3.org/2004/02/skos/core#prefLabel> "40 institute, experimental station, research organization, genebank"@en .
+<http://www.cropontology.org/rdf/CO_020:0000060> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000076> .
+<http://www.cropontology.org/rdf/CO_020:0000060> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000076> .
+<http://www.cropontology.org/rdf/CO_020:0000059> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000059> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000059> <http://www.w3.org/2000/01/rdf-schema#label> "30 market or shop"@en .
+<http://www.cropontology.org/rdf/CO_020:0000059> <http://www.w3.org/2004/02/skos/core#prefLabel> "30 market or shop"@en .
+<http://www.cropontology.org/rdf/CO_020:0000059> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000076> .
+<http://www.cropontology.org/rdf/CO_020:0000059> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000076> .
+<http://www.cropontology.org/rdf/CO_020:0000058> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000058> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000058> <http://www.w3.org/2000/01/rdf-schema#label> "28 park"@en .
+<http://www.cropontology.org/rdf/CO_020:0000058> <http://www.w3.org/2004/02/skos/core#prefLabel> "28 park"@en .
+<http://www.cropontology.org/rdf/CO_020:0000058> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000050> .
+<http://www.cropontology.org/rdf/CO_020:0000058> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000050> .
+<http://www.cropontology.org/rdf/CO_020:0000057> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000057> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000057> <http://www.w3.org/2000/01/rdf-schema#label> "27 threshing floor"@en .
+<http://www.cropontology.org/rdf/CO_020:0000057> <http://www.w3.org/2004/02/skos/core#prefLabel> "27 threshing floor"@en .
+<http://www.cropontology.org/rdf/CO_020:0000057> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000050> .
+<http://www.cropontology.org/rdf/CO_020:0000057> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000050> .
+<http://www.cropontology.org/rdf/CO_020:0000056> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000056> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000056> <http://www.w3.org/2000/01/rdf-schema#label> "26 farm store"@en .
+<http://www.cropontology.org/rdf/CO_020:0000056> <http://www.w3.org/2004/02/skos/core#prefLabel> "26 farm store"@en .
+<http://www.cropontology.org/rdf/CO_020:0000056> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000050> .
+<http://www.cropontology.org/rdf/CO_020:0000056> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000050> .
+<http://www.cropontology.org/rdf/CO_020:0000055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000055> <http://www.w3.org/2000/01/rdf-schema#label> "25 pasture"@en .
+<http://www.cropontology.org/rdf/CO_020:0000055> <http://www.w3.org/2004/02/skos/core#prefLabel> "25 pasture"@en .
+<http://www.cropontology.org/rdf/CO_020:0000055> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000050> .
+<http://www.cropontology.org/rdf/CO_020:0000055> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000050> .
+<http://www.cropontology.org/rdf/CO_020:0000054> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000054> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000054> <http://www.w3.org/2000/01/rdf-schema#label> "24 fallow land"@en .
+<http://www.cropontology.org/rdf/CO_020:0000054> <http://www.w3.org/2004/02/skos/core#prefLabel> "24 fallow land"@en .
+<http://www.cropontology.org/rdf/CO_020:0000054> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000050> .
+<http://www.cropontology.org/rdf/CO_020:0000054> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000050> .
+<http://www.cropontology.org/rdf/CO_020:0000053> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000053> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000053> <http://www.w3.org/2000/01/rdf-schema#label> "23 backyard, kitchen, or home garden (urban, peri-urban or rural)"@en .
+<http://www.cropontology.org/rdf/CO_020:0000053> <http://www.w3.org/2004/02/skos/core#prefLabel> "23 backyard, kitchen, or home garden (urban, peri-urban or rural)"@en .
+<http://www.cropontology.org/rdf/CO_020:0000053> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000050> .
+<http://www.cropontology.org/rdf/CO_020:0000053> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000050> .
+<http://www.cropontology.org/rdf/CO_020:0000052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000052> <http://www.w3.org/2000/01/rdf-schema#label> "22 orchard"@en .
+<http://www.cropontology.org/rdf/CO_020:0000052> <http://www.w3.org/2004/02/skos/core#prefLabel> "22 orchard"@en .
+<http://www.cropontology.org/rdf/CO_020:0000052> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000050> .
+<http://www.cropontology.org/rdf/CO_020:0000052> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000050> .
+<http://www.cropontology.org/rdf/CO_020:0000051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000051> <http://www.w3.org/2000/01/rdf-schema#label> "21 field"@en .
+<http://www.cropontology.org/rdf/CO_020:0000051> <http://www.w3.org/2004/02/skos/core#prefLabel> "21 field"@en .
+<http://www.cropontology.org/rdf/CO_020:0000051> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000050> .
+<http://www.cropontology.org/rdf/CO_020:0000051> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000050> .
+<http://www.cropontology.org/rdf/CO_020:0000050> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000050> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000050> <http://www.w3.org/2000/01/rdf-schema#label> "20 farm or cultivated habitat"@en .
+<http://www.cropontology.org/rdf/CO_020:0000050> <http://www.w3.org/2004/02/skos/core#prefLabel> "20 farm or cultivated habitat"@en .
+<http://www.cropontology.org/rdf/CO_020:0000050> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000076> .
+<http://www.cropontology.org/rdf/CO_020:0000050> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000076> .
+<http://www.cropontology.org/rdf/CO_020:0000049> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000049> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000049> <http://www.w3.org/2000/01/rdf-schema#label> "15 aquatic habitat"@en .
+<http://www.cropontology.org/rdf/CO_020:0000049> <http://www.w3.org/2004/02/skos/core#prefLabel> "15 aquatic habitat"@en .
+<http://www.cropontology.org/rdf/CO_020:0000049> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000044> .
+<http://www.cropontology.org/rdf/CO_020:0000049> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000044> .
+<http://www.cropontology.org/rdf/CO_020:0000048> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000048> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000048> <http://www.w3.org/2000/01/rdf-schema#label> "14 desert or tundra"@en .
+<http://www.cropontology.org/rdf/CO_020:0000048> <http://www.w3.org/2004/02/skos/core#prefLabel> "14 desert or tundra"@en .
+<http://www.cropontology.org/rdf/CO_020:0000048> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000044> .
+<http://www.cropontology.org/rdf/CO_020:0000048> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000044> .
+<http://www.cropontology.org/rdf/CO_020:0000047> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000047> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000047> <http://www.w3.org/2000/01/rdf-schema#label> "13 grassland"@en .
+<http://www.cropontology.org/rdf/CO_020:0000047> <http://www.w3.org/2004/02/skos/core#prefLabel> "13 grassland"@en .
+<http://www.cropontology.org/rdf/CO_020:0000047> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000044> .
+<http://www.cropontology.org/rdf/CO_020:0000047> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000044> .
+<http://www.cropontology.org/rdf/CO_020:0000046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000046> <http://www.w3.org/2000/01/rdf-schema#label> "12 shrubland"@en .
+<http://www.cropontology.org/rdf/CO_020:0000046> <http://www.w3.org/2004/02/skos/core#prefLabel> "12 shrubland"@en .
+<http://www.cropontology.org/rdf/CO_020:0000046> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000044> .
+<http://www.cropontology.org/rdf/CO_020:0000046> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000044> .
+<http://www.cropontology.org/rdf/CO_020:0000045> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000045> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000045> <http://www.w3.org/2000/01/rdf-schema#label> "11 forest or woodland"@en .
+<http://www.cropontology.org/rdf/CO_020:0000045> <http://www.w3.org/2004/02/skos/core#prefLabel> "11 forest or woodland"@en .
+<http://www.cropontology.org/rdf/CO_020:0000045> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000044> .
+<http://www.cropontology.org/rdf/CO_020:0000045> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000044> .
+<http://www.cropontology.org/rdf/CO_020:0000044> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000044> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000044> <http://www.w3.org/2000/01/rdf-schema#label> "10 wild habitat"@en .
+<http://www.cropontology.org/rdf/CO_020:0000044> <http://www.w3.org/2004/02/skos/core#prefLabel> "10 wild habitat"@en .
+<http://www.cropontology.org/rdf/CO_020:0000044> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000076> .
+<http://www.cropontology.org/rdf/CO_020:0000044> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000076> .
+<http://www.cropontology.org/rdf/CO_020:0000043> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000043> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000043> <http://www.w3.org/2000/01/rdf-schema#label> "999 other biological status of accession"@en .
+<http://www.cropontology.org/rdf/CO_020:0000043> <http://www.w3.org/2004/02/skos/core#prefLabel> "999 other biological status of accession"@en .
+<http://www.cropontology.org/rdf/CO_020:0000043> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000075> .
+<http://www.cropontology.org/rdf/CO_020:0000043> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000075> .
+<http://www.cropontology.org/rdf/CO_020:0000042> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000042> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000042> <http://www.w3.org/2000/01/rdf-schema#label> "500 advanced or improved cultivar"@en .
+<http://www.cropontology.org/rdf/CO_020:0000042> <http://www.w3.org/2004/02/skos/core#prefLabel> "500 advanced or improved cultivar"@en .
+<http://www.cropontology.org/rdf/CO_020:0000042> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000075> .
+<http://www.cropontology.org/rdf/CO_020:0000042> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000075> .
+<http://www.cropontology.org/rdf/CO_020:0000041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000041> <http://www.w3.org/2000/01/rdf-schema#label> "420 genetic stock"@en .
+<http://www.cropontology.org/rdf/CO_020:0000041> <http://www.w3.org/2004/02/skos/core#prefLabel> "420 genetic stock"@en .
+<http://www.cropontology.org/rdf/CO_020:0000041> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000034> .
+<http://www.cropontology.org/rdf/CO_020:0000041> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000034> .
+<http://www.cropontology.org/rdf/CO_020:0000040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000040> <http://www.w3.org/2000/01/rdf-schema#label> "415 segregating population"@en .
+<http://www.cropontology.org/rdf/CO_020:0000040> <http://www.w3.org/2004/02/skos/core#prefLabel> "415 segregating population"@en .
+<http://www.cropontology.org/rdf/CO_020:0000040> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000035> .
+<http://www.cropontology.org/rdf/CO_020:0000040> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000035> .
+<http://www.cropontology.org/rdf/CO_020:0000039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000039> <http://www.w3.org/2000/01/rdf-schema#label> "414 inbred line (parent of hybrid cultivar)"@en .
+<http://www.cropontology.org/rdf/CO_020:0000039> <http://www.w3.org/2004/02/skos/core#prefLabel> "414 inbred line (parent of hybrid cultivar)"@en .
+<http://www.cropontology.org/rdf/CO_020:0000039> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000035> .
+<http://www.cropontology.org/rdf/CO_020:0000039> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000035> .
+<http://www.cropontology.org/rdf/CO_020:0000038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000038> <http://www.w3.org/2000/01/rdf-schema#label> "413 founder stock or base population"@en .
+<http://www.cropontology.org/rdf/CO_020:0000038> <http://www.w3.org/2004/02/skos/core#prefLabel> "413 founder stock or base population"@en .
+<http://www.cropontology.org/rdf/CO_020:0000038> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000035> .
+<http://www.cropontology.org/rdf/CO_020:0000038> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000035> .
+<http://www.cropontology.org/rdf/CO_020:0000037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000037> <http://www.w3.org/2000/01/rdf-schema#label> "412 hybrid"@en .
+<http://www.cropontology.org/rdf/CO_020:0000037> <http://www.w3.org/2004/02/skos/core#prefLabel> "412 hybrid"@en .
+<http://www.cropontology.org/rdf/CO_020:0000037> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000035> .
+<http://www.cropontology.org/rdf/CO_020:0000037> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000035> .
+<http://www.cropontology.org/rdf/CO_020:0000036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000036> <http://www.w3.org/2000/01/rdf-schema#label> "411 synthetic population"@en .
+<http://www.cropontology.org/rdf/CO_020:0000036> <http://www.w3.org/2004/02/skos/core#prefLabel> "411 synthetic population"@en .
+<http://www.cropontology.org/rdf/CO_020:0000036> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000035> .
+<http://www.cropontology.org/rdf/CO_020:0000036> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000035> .
+<http://www.cropontology.org/rdf/CO_020:0000035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000035> <http://www.w3.org/2000/01/rdf-schema#label> "410 breeder's line"@en .
+<http://www.cropontology.org/rdf/CO_020:0000035> <http://www.w3.org/2004/02/skos/core#prefLabel> "410 breeder's line"@en .
+<http://www.cropontology.org/rdf/CO_020:0000035> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000034> .
+<http://www.cropontology.org/rdf/CO_020:0000035> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000034> .
+<http://www.cropontology.org/rdf/CO_020:0000034> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000034> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000034> <http://www.w3.org/2000/01/rdf-schema#label> "400 breeding or research material"@en .
+<http://www.cropontology.org/rdf/CO_020:0000034> <http://www.w3.org/2004/02/skos/core#prefLabel> "400 breeding or research material"@en .
+<http://www.cropontology.org/rdf/CO_020:0000034> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000075> .
+<http://www.cropontology.org/rdf/CO_020:0000034> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000075> .
+<http://www.cropontology.org/rdf/CO_020:0000033> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000033> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000033> <http://www.w3.org/2000/01/rdf-schema#label> "300 traditional cultivar or landrace"@en .
+<http://www.cropontology.org/rdf/CO_020:0000033> <http://www.w3.org/2004/02/skos/core#prefLabel> "300 traditional cultivar or landrace"@en .
+<http://www.cropontology.org/rdf/CO_020:0000033> <http://www.w3.org/2004/02/skos/core#altLabel> "primitive cultivar EXACT []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000033> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000075> .
+<http://www.cropontology.org/rdf/CO_020:0000033> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000075> .
+<http://www.cropontology.org/rdf/CO_020:0000032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000032> <http://www.w3.org/2000/01/rdf-schema#label> "200 weedy"@en .
+<http://www.cropontology.org/rdf/CO_020:0000032> <http://www.w3.org/2004/02/skos/core#prefLabel> "200 weedy"@en .
+<http://www.cropontology.org/rdf/CO_020:0000032> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000075> .
+<http://www.cropontology.org/rdf/CO_020:0000032> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000075> .
+<http://www.cropontology.org/rdf/CO_020:0000031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000031> <http://www.w3.org/2000/01/rdf-schema#label> "120 semi-natural or wild"@en .
+<http://www.cropontology.org/rdf/CO_020:0000031> <http://www.w3.org/2004/02/skos/core#prefLabel> "120 semi-natural or wild"@en .
+<http://www.cropontology.org/rdf/CO_020:0000031> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000029> .
+<http://www.cropontology.org/rdf/CO_020:0000031> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000029> .
+<http://www.cropontology.org/rdf/CO_020:0000030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000030> <http://www.w3.org/2000/01/rdf-schema#label> "110 natural"@en .
+<http://www.cropontology.org/rdf/CO_020:0000030> <http://www.w3.org/2004/02/skos/core#prefLabel> "110 natural"@en .
+<http://www.cropontology.org/rdf/CO_020:0000030> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000029> .
+<http://www.cropontology.org/rdf/CO_020:0000030> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000029> .
+<http://www.cropontology.org/rdf/CO_020:0000029> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000029> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000029> <http://www.w3.org/2000/01/rdf-schema#label> "100 wild"@en .
+<http://www.cropontology.org/rdf/CO_020:0000029> <http://www.w3.org/2004/02/skos/core#prefLabel> "100 wild"@en .
+<http://www.cropontology.org/rdf/CO_020:0000029> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000075> .
+<http://www.cropontology.org/rdf/CO_020:0000029> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000075> .
+<http://www.cropontology.org/rdf/CO_020:0000028> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000028> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000028> <http://www.w3.org/2000/01/rdf-schema#label> "remarks"@en .
+<http://www.cropontology.org/rdf/CO_020:0000028> <http://www.w3.org/2004/02/skos/core#prefLabel> "remarks"@en .
+<http://www.cropontology.org/rdf/CO_020:0000028> <http://www.w3.org/2004/02/skos/core#altLabel> "(REMARKS) EXACT []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000028> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000074> .
+<http://www.cropontology.org/rdf/CO_020:0000028> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000074> .
+<http://www.cropontology.org/rdf/CO_020:0000027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000027> <http://www.w3.org/2000/01/rdf-schema#label> "type of germplasm storage"@en .
+<http://www.cropontology.org/rdf/CO_020:0000027> <http://www.w3.org/2004/02/skos/core#prefLabel> "type of germplasm storage"@en .
+<http://www.cropontology.org/rdf/CO_020:0000027> <http://www.w3.org/2004/02/skos/core#altLabel> "(STORAGE) EXACT []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000027> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000074> .
+<http://www.cropontology.org/rdf/CO_020:0000027> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000074> .
+<http://www.cropontology.org/rdf/CO_020:0000026> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000026> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000026> <http://www.w3.org/2000/01/rdf-schema#label> "location of safety duplicates"@en .
+<http://www.cropontology.org/rdf/CO_020:0000026> <http://www.w3.org/2004/02/skos/core#prefLabel> "location of safety duplicates"@en .
+<http://www.cropontology.org/rdf/CO_020:0000026> <http://www.w3.org/2004/02/skos/core#altLabel> "(DUPLSITE) EXACT []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000026> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000088> .
+<http://www.cropontology.org/rdf/CO_020:0000026> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000088> .
+<http://www.cropontology.org/rdf/CO_020:0000025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000025> <http://www.w3.org/2000/01/rdf-schema#label> "other identification numbers associated with the accession"@en .
+<http://www.cropontology.org/rdf/CO_020:0000025> <http://www.w3.org/2004/02/skos/core#prefLabel> "other identification numbers associated with the accession"@en .
+<http://www.cropontology.org/rdf/CO_020:0000025> <http://www.w3.org/2004/02/skos/core#altLabel> "(OTHERNUMB) EXACT []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000025> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000079> .
+<http://www.cropontology.org/rdf/CO_020:0000025> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000079> .
+<http://www.cropontology.org/rdf/CO_020:0000024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000024> <http://www.w3.org/2000/01/rdf-schema#label> "donor accession number"@en .
+<http://www.cropontology.org/rdf/CO_020:0000024> <http://www.w3.org/2004/02/skos/core#prefLabel> "donor accession number"@en .
+<http://www.cropontology.org/rdf/CO_020:0000024> <http://www.w3.org/2004/02/skos/core#altLabel> "(DONORNUMB) EXACT []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000024> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000089> .
+<http://www.cropontology.org/rdf/CO_020:0000024> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000089> .
+<http://www.cropontology.org/rdf/CO_020:0000023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000023> <http://www.w3.org/2000/01/rdf-schema#label> "donor institute code"@en .
+<http://www.cropontology.org/rdf/CO_020:0000023> <http://www.w3.org/2004/02/skos/core#prefLabel> "donor institute code"@en .
+<http://www.cropontology.org/rdf/CO_020:0000023> <http://www.w3.org/2004/02/skos/core#altLabel> "(DONORCODE) EXACT []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000023> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000088> .
+<http://www.cropontology.org/rdf/CO_020:0000023> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000088> .
+<http://www.cropontology.org/rdf/CO_020:0000022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000022> <http://www.w3.org/2000/01/rdf-schema#label> "collecting or acquisition source"@en .
+<http://www.cropontology.org/rdf/CO_020:0000022> <http://www.w3.org/2004/02/skos/core#prefLabel> "collecting or acquisition source"@en .
+<http://www.cropontology.org/rdf/CO_020:0000022> <http://www.w3.org/2004/02/skos/core#altLabel> "(COLLSRC) EXACT []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000022> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000087> .
+<http://www.cropontology.org/rdf/CO_020:0000022> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000087> .
+<http://www.cropontology.org/rdf/CO_020:0000021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000021> <http://www.w3.org/2000/01/rdf-schema#label> "ancestral data"@en .
+<http://www.cropontology.org/rdf/CO_020:0000021> <http://www.w3.org/2004/02/skos/core#prefLabel> "ancestral data"@en .
+<http://www.cropontology.org/rdf/CO_020:0000021> <http://www.w3.org/2004/02/skos/core#altLabel> "(ANCEST) EXACT []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000021> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000082> .
+<http://www.cropontology.org/rdf/CO_020:0000021> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000082> .
+<http://www.cropontology.org/rdf/CO_020:0000020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000020> <http://www.w3.org/2000/01/rdf-schema#label> "biological status of accession"@en .
+<http://www.cropontology.org/rdf/CO_020:0000020> <http://www.w3.org/2004/02/skos/core#prefLabel> "biological status of accession"@en .
+<http://www.cropontology.org/rdf/CO_020:0000020> <http://www.w3.org/2004/02/skos/core#altLabel> "(SAMPSTAT) EXACT []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000020> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000074> .
+<http://www.cropontology.org/rdf/CO_020:0000020> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000074> .
+<http://www.cropontology.org/rdf/CO_020:0000019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000019> <http://www.w3.org/2000/01/rdf-schema#label> "breeding institute code"@en .
+<http://www.cropontology.org/rdf/CO_020:0000019> <http://www.w3.org/2004/02/skos/core#prefLabel> "breeding institute code"@en .
+<http://www.cropontology.org/rdf/CO_020:0000019> <http://www.w3.org/2004/02/skos/core#altLabel> "(BREDCODE) EXACT []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000019> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000088> .
+<http://www.cropontology.org/rdf/CO_020:0000019> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000088> .
+<http://www.cropontology.org/rdf/CO_020:0000018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000018> <http://www.w3.org/2000/01/rdf-schema#label> "collecting date of sample"@en .
+<http://www.cropontology.org/rdf/CO_020:0000018> <http://www.w3.org/2004/02/skos/core#prefLabel> "collecting date of sample"@en .
+<http://www.cropontology.org/rdf/CO_020:0000018> <http://www.w3.org/2004/02/skos/core#altLabel> "(COLLDATE) EXACT []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000018> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000086> .
+<http://www.cropontology.org/rdf/CO_020:0000018> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000086> .
+<http://www.cropontology.org/rdf/CO_020:0000017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000017> <http://www.w3.org/2000/01/rdf-schema#label> "elevation of collecting site"@en .
+<http://www.cropontology.org/rdf/CO_020:0000017> <http://www.w3.org/2004/02/skos/core#prefLabel> "elevation of collecting site"@en .
+<http://www.cropontology.org/rdf/CO_020:0000017> <http://www.w3.org/2004/02/skos/core#altLabel> "(ELEVATION) EXACT []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000017> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000087> .
+<http://www.cropontology.org/rdf/CO_020:0000017> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000087> .
+<http://www.cropontology.org/rdf/CO_020:0000016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000016> <http://www.w3.org/2000/01/rdf-schema#label> "longitude of collecting site (degree, min, sec)"@en .
+<http://www.cropontology.org/rdf/CO_020:0000016> <http://www.w3.org/2004/02/skos/core#prefLabel> "longitude of collecting site (degree, min, sec)"@en .
+<http://www.cropontology.org/rdf/CO_020:0000016> <http://www.w3.org/2004/02/skos/core#altLabel> "(LONGITUDE) EXACT []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000016> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000087> .
+<http://www.cropontology.org/rdf/CO_020:0000016> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000087> .
+<http://www.cropontology.org/rdf/CO_020:0000015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000015> <http://www.w3.org/2000/01/rdf-schema#label> "latitude of collecting site (degree, min, sec)"@en .
+<http://www.cropontology.org/rdf/CO_020:0000015> <http://www.w3.org/2004/02/skos/core#prefLabel> "latitude of collecting site (degree, min, sec)"@en .
+<http://www.cropontology.org/rdf/CO_020:0000015> <http://www.w3.org/2004/02/skos/core#altLabel> "(LATITUDE) EXACT []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000015> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000087> .
+<http://www.cropontology.org/rdf/CO_020:0000015> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000087> .
+<http://www.cropontology.org/rdf/CO_020:0000014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000014> <http://www.w3.org/2000/01/rdf-schema#label> "location of collecting site"@en .
+<http://www.cropontology.org/rdf/CO_020:0000014> <http://www.w3.org/2004/02/skos/core#prefLabel> "location of collecting site"@en .
+<http://www.cropontology.org/rdf/CO_020:0000014> <http://www.w3.org/2004/02/skos/core#altLabel> "(COLLSITE) EXACT []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000014> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000087> .
+<http://www.cropontology.org/rdf/CO_020:0000014> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000087> .
+<http://www.cropontology.org/rdf/CO_020:0000013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000013> <http://www.w3.org/2000/01/rdf-schema#label> "country of origin"@en .
+<http://www.cropontology.org/rdf/CO_020:0000013> <http://www.w3.org/2004/02/skos/core#prefLabel> "country of origin"@en .
+<http://www.cropontology.org/rdf/CO_020:0000013> <http://www.w3.org/2004/02/skos/core#altLabel> "(ORIGCTY) EXACT []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000013> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000087> .
+<http://www.cropontology.org/rdf/CO_020:0000013> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000087> .
+<http://www.cropontology.org/rdf/CO_020:0000012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000012> <http://www.w3.org/2000/01/rdf-schema#label> "acquisition date"@en .
+<http://www.cropontology.org/rdf/CO_020:0000012> <http://www.w3.org/2004/02/skos/core#prefLabel> "acquisition date"@en .
+<http://www.cropontology.org/rdf/CO_020:0000012> <http://www.w3.org/2004/02/skos/core#altLabel> "(ACQDATE) EXACT []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000012> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000086> .
+<http://www.cropontology.org/rdf/CO_020:0000012> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000086> .
+<http://www.cropontology.org/rdf/CO_020:0000011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000011> <http://www.w3.org/2000/01/rdf-schema#label> "accession name"@en .
+<http://www.cropontology.org/rdf/CO_020:0000011> <http://www.w3.org/2004/02/skos/core#prefLabel> "accession name"@en .
+<http://www.cropontology.org/rdf/CO_020:0000011> <http://www.w3.org/2004/02/skos/core#altLabel> "(ACCENAME) EXACT []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000011> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000079> .
+<http://www.cropontology.org/rdf/CO_020:0000011> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000079> .
+<http://www.cropontology.org/rdf/CO_020:0000010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000010> <http://www.w3.org/2000/01/rdf-schema#label> "common crop name"@en .
+<http://www.cropontology.org/rdf/CO_020:0000010> <http://www.w3.org/2004/02/skos/core#prefLabel> "common crop name"@en .
+<http://www.cropontology.org/rdf/CO_020:0000010> <http://www.w3.org/2004/02/skos/core#altLabel> "(CROPNAME) EXACT []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000010> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000081> .
+<http://www.cropontology.org/rdf/CO_020:0000010> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000081> .
+<http://www.cropontology.org/rdf/CO_020:0000009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000009> <http://www.w3.org/2000/01/rdf-schema#label> "subtaxa authority"@en .
+<http://www.cropontology.org/rdf/CO_020:0000009> <http://www.w3.org/2004/02/skos/core#prefLabel> "subtaxa authority"@en .
+<http://www.cropontology.org/rdf/CO_020:0000009> <http://www.w3.org/2004/02/skos/core#altLabel> "(SUBTAUTHOR) EXACT []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000009> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000081> .
+<http://www.cropontology.org/rdf/CO_020:0000009> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000081> .
+<http://www.cropontology.org/rdf/CO_020:0000008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000008> <http://www.w3.org/2000/01/rdf-schema#label> "subtaxa"@en .
+<http://www.cropontology.org/rdf/CO_020:0000008> <http://www.w3.org/2004/02/skos/core#prefLabel> "subtaxa"@en .
+<http://www.cropontology.org/rdf/CO_020:0000008> <http://www.w3.org/2004/02/skos/core#altLabel> "[(SUBTAXA) EXACT []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000008> <http://www.w3.org/2004/02/skos/core#altLabel> "Subspecies RELATED []]"@en .
+<http://www.cropontology.org/rdf/CO_020:0000008> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000081> .
+<http://www.cropontology.org/rdf/CO_020:0000008> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000081> .
+<http://www.cropontology.org/rdf/CO_020:0000007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000007> <http://www.w3.org/2000/01/rdf-schema#label> "species authority"@en .
+<http://www.cropontology.org/rdf/CO_020:0000007> <http://www.w3.org/2004/02/skos/core#prefLabel> "species authority"@en .
+<http://www.cropontology.org/rdf/CO_020:0000007> <http://www.w3.org/2004/02/skos/core#altLabel> "(SPAUTHOR) EXACT []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000007> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000081> .
+<http://www.cropontology.org/rdf/CO_020:0000007> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000081> .
+<http://www.cropontology.org/rdf/CO_020:0000006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000006> <http://www.w3.org/2000/01/rdf-schema#label> "species"@en .
+<http://www.cropontology.org/rdf/CO_020:0000006> <http://www.w3.org/2004/02/skos/core#prefLabel> "species"@en .
+<http://www.cropontology.org/rdf/CO_020:0000006> <http://www.w3.org/2004/02/skos/core#altLabel> "(SPECIES) EXACT []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000006> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000081> .
+<http://www.cropontology.org/rdf/CO_020:0000006> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000081> .
+<http://www.cropontology.org/rdf/CO_020:0000005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000005> <http://www.w3.org/2000/01/rdf-schema#label> "genus"@en .
+<http://www.cropontology.org/rdf/CO_020:0000005> <http://www.w3.org/2004/02/skos/core#prefLabel> "genus"@en .
+<http://www.cropontology.org/rdf/CO_020:0000005> <http://www.w3.org/2004/02/skos/core#altLabel> "(GENUS) EXACT []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000005> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000081> .
+<http://www.cropontology.org/rdf/CO_020:0000005> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000081> .
+<http://www.cropontology.org/rdf/CO_020:0000004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000004> <http://www.w3.org/2000/01/rdf-schema#label> "collecting institute code"@en .
+<http://www.cropontology.org/rdf/CO_020:0000004> <http://www.w3.org/2004/02/skos/core#prefLabel> "collecting institute code"@en .
+<http://www.cropontology.org/rdf/CO_020:0000004> <http://www.w3.org/2004/02/skos/core#altLabel> "(COLLCODE) EXACT []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000004> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000088> .
+<http://www.cropontology.org/rdf/CO_020:0000004> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000088> .
+<http://www.cropontology.org/rdf/CO_020:0000003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000003> <http://www.w3.org/2000/01/rdf-schema#label> "collecting number"@en .
+<http://www.cropontology.org/rdf/CO_020:0000003> <http://www.w3.org/2004/02/skos/core#prefLabel> "collecting number"@en .
+<http://www.cropontology.org/rdf/CO_020:0000003> <http://www.w3.org/2004/02/skos/core#altLabel> "(COLLNUMB) EXACT []"@en .
+<http://www.cropontology.org/rdf/CO_020:0000003> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/CO_020:0000079> .
+<http://www.cropontology.org/rdf/CO_020:0000003> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/CO_020:0000079> .
+<http://www.cropontology.org/rdf/CO_020:0000000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.cropontology.org/rdf/CO_020:0000000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cropontology.org/rdf/CO_020:0000000> <http://www.w3.org/2000/01/rdf-schema#label> "multicrop passport ontology"@en .
+<http://www.cropontology.org/rdf/CO_020:0000000> <http://www.w3.org/2004/02/skos/core#prefLabel> "multicrop passport ontology"@en .
+<http://www.cropontology.org/rdf/Computation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/Method> .
+<http://www.cropontology.org/rdf/Computation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/Method> .
+<http://www.cropontology.org/rdf/Measurement> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/Method> .
+<http://www.cropontology.org/rdf/Measurement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/Method> .
+<http://www.cropontology.org/rdf/Estimation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/Method> .
+<http://www.cropontology.org/rdf/Estimation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/Method> .
+<http://www.cropontology.org/rdf/Counting> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/Method> .
+<http://www.cropontology.org/rdf/Counting> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/Method> .
+<http://www.cropontology.org/rdf/Nominal> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/Scale> .
+<http://www.cropontology.org/rdf/Nominal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/Scale> .
+<http://www.cropontology.org/rdf/Ordinal> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/Scale> .
+<http://www.cropontology.org/rdf/Ordinal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/Scale> .
+<http://www.cropontology.org/rdf/Numerical> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/Scale> .
+<http://www.cropontology.org/rdf/Numerical> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/Scale> .
+<http://www.cropontology.org/rdf/Text> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/Scale> .
+<http://www.cropontology.org/rdf/Text> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/Scale> .
+<http://www.cropontology.org/rdf/Code> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/Scale> .
+<http://www.cropontology.org/rdf/Code> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/Scale> .
+<http://www.cropontology.org/rdf/Duration> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/Scale> .
+<http://www.cropontology.org/rdf/Duration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/Scale> .
+<http://www.cropontology.org/rdf/Time> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.cropontology.org/rdf/Scale> .
+<http://www.cropontology.org/rdf/Time> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cropontology.org/rdf/Scale> .
+<http://www.cropontology.org/rdf/method_of> <http://www.w3.org/2000/01/rdf-schema#subProperty> <http://www.w3.org/2004/02/skos/core#related> .
+<http://www.cropontology.org/rdf/scale_of> <http://www.w3.org/2000/01/rdf-schema#subProperty> <http://www.w3.org/2004/02/skos/core#related> .
+<http://www.cropontology.org/rdf/variable_of> <http://www.w3.org/2000/01/rdf-schema#subProperty> <http://www.w3.org/2004/02/skos/core#related> .
+<http://www.cropontology.org/rdf/acronym> <http://www.w3.org/2000/01/rdf-schema#subProperty> <http://www.w3.org/2004/02/skos/core#altLabel> .
+

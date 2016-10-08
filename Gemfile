@@ -36,8 +36,9 @@ gem 'data_mapper'
 gem 'dm-sqlite-adapter'
 gem 'bcrypt-ruby'
 gem 'scrypt'
-
+gem 'json'
 gem 'dalli'
+
 
 # Persistence Adapters ##
 #

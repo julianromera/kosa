@@ -372,6 +372,7 @@ DEPENDENCIES
   data_mapper
   dm-sqlite-adapter
   fileutils
+  json
   json-ld!
   linkeddata!
   rack-cache
