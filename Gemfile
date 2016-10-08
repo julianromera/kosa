@@ -22,6 +22,7 @@ gem 'sparql-client',      :git => "git://github.com/ruby-rdf/sparql-client.git"
 gem 'sparql',             :git => "git://github.com/ruby-rdf/sparql.git"
 gem 'sinatra-respond_to', :git => "git://github.com/gkellogg/sinatra-respond_to.git", :require => 'sinatra/respond_to'
 #gem 'rdf-sesame', 	  :git => "git://github.com/ruby-rdf/rdf-sesame.git"
+#gem 'rdf-blazegraph'
 
 gem 'sinatra'
 gem 'rubygems-bundler'
@@ -44,7 +45,9 @@ gem 'dalli'
 #
 # SQLite3, PostgreSQL, Heroku
 # gem 'rdf-do'
-# gem 'do_sqlite3'
+gem 'do_sqlite3'
+gem 'do_mysql'
+
 #
 # AllegroGraph
 # gem 'rdf-agraph'

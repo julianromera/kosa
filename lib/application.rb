@@ -17,9 +17,10 @@ require 'linkeddata'
 #require 'rdf/sesame'
 #require 'rdf/4store'
 #require 'rdf-agraph'
-#require 'data_objects'
 require 'rdf/do'
+require 'data_objects'
 require 'do_sqlite3'
+require 'do_mysql'
 #require 'do_postgres'
 
 # rdf related gems
@@ -74,7 +75,8 @@ class Kosa < Sinatra::Base
     @results_per_page = 4
     #url = "http://127.0.0.1:8888/openrdf-sesame/repositories/#{Repository}"
     #@repo = RDF::Sesame::Repository.new(url)
-    @repo = RDF::DataObjects::Repository.new uri: "sqlite3:kosa.db"
+    #@repo = RDF::DataObjects::Repository.new uri: "sqlite3:kosa.db"
+    @repo = RDF::DataObjects::Repository.new uri: "mysql://root:xd@localhost:3306/kosa"
     @sparql = SPARQL::Client.new(repo)
     @root = ''
     @encoder = Yajl::Encoder.new
