@@ -16,9 +16,9 @@ require 'linkeddata'
 #require 'rdf/sesame'
 #require 'rdf/4store'
 #require 'rdf-agraph'
-require 'rdf/do'
 #require 'data_objects'
-#require 'do_sqlite3'
+require 'rdf/do'
+require 'do_sqlite3'
 #require 'do_postgres'
 
 # rdf related gems
@@ -52,7 +52,6 @@ class Kosa < Sinatra::Base
 
   enable :sessions
 
-
   use Rack::Session::Cookie, secret: "REPLACE_ME_SECRET_LONG_KEY"
   use Rack::Flash, accessorize: [:error, :success]
 
@@ -71,6 +70,7 @@ class Kosa < Sinatra::Base
 
   def initialize
 
+    super
     # Start debugger
     # binding.pry
 
@@ -204,7 +204,7 @@ class Kosa < Sinatra::Base
 
     # get info from node
     get '/api/getconcept' do
-      cache_control :public, max_age: 1800  # 30 mins.
+      #cache_control :public, max_age: 1800  # 30 mins.
 
       lang = Sanitize.clean(params[:lang])
       uri = Sanitize.clean(params[:uri])
@@ -404,7 +404,11 @@ class Kosa < Sinatra::Base
     # passed type arg to Dry the method
     def get_concept(uri=nil, lang=nil)
 
+        return "aa"
 
+        #return encoder.encode({})
+
+=begin
         if uri.nil?
           # return null to save resources
           return encoder.encode({:error=>'No uri selected'})
@@ -451,6 +455,7 @@ class Kosa < Sinatra::Base
         }
 
          return encoder.encode(concept)
+=end
     end
 
 
