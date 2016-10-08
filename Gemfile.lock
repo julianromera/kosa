@@ -231,6 +231,8 @@ GEM
       uuidtools (~> 2.1)
     dm-validations (1.2.0)
       dm-core (~> 1.2.0)
+    do_postgres (0.10.17)
+      data_objects (= 0.10.17)
     do_sqlite3 (0.10.17)
       data_objects (= 0.10.17)
     docile (1.1.5)
@@ -371,6 +373,8 @@ DEPENDENCIES
   dalli
   data_mapper
   dm-sqlite-adapter
+  do_postgres
+  do_sqlite3
   fileutils
   json
   json-ld!

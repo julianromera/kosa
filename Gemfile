@@ -46,7 +46,7 @@ gem 'dalli'
 # SQLite3, PostgreSQL, Heroku
 # gem 'rdf-do'
 gem 'do_sqlite3'
-gem 'do_mysql'
+gem 'do_postgres'
 
 #
 # AllegroGraph
