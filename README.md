@@ -1,4 +1,4 @@
-### KOS aggregator (kosa)
+### KOS Aggregator (kosa)
 
 A lightweight aggregator of Knowledge Organization Systems (KOS)  
 
@@ -23,13 +23,13 @@ A lightweight aggregator of Knowledge Organization Systems (KOS)
 
 ### Demo
 
-The current project snapshot may be seen [Here](//kos.appgee.net)
+[demo](//kos.appgee.net)
 
 ### Status  
 
-This Project still on Development.
+No support 
 
-[![Build Status](https://travis-ci.org/ieru/kosa.png?branch=master)](https://travis-ci.org/ieru/kosa) [![Code Climate](https://codeclimate.com/github/ieru/kosa.png)](https://codeclimate.com/github/ieru/kosa) [![Coverage Status](https://coveralls.io/repos/ieru/kosa/badge.png)](https://coveralls.io/r/ieru/kosa) [![security](https://hakiri.io/github/ieru/kosa/master.svg)](https://hakiri.io/github/ieru/kosa/master)
+[![Build Status](https://travis-ci.org/ieru/kosa.png?branch=master)](https://travis-ci.org/ieru/kosa) [![Code Climate](https://codeclimate.com/github/ieru/kosa.png)](https://codeclimate.com/github/ieru/kosa) [![security](https://hakiri.io/github/ieru/kosa/master.svg)](https://hakiri.io/github/ieru/kosa/master)
 
 ### Architecture
 
@@ -40,7 +40,7 @@ This Project still on Development.
 - Scalable
 - Indexable Database: PostgeSQL | ElasticSearch
 - Supports Cache: Filesystem | Memcached
-- Touchscreen / Mobile friendly. Responsive HTML5  
+- Touchscreen / Mobile friendly: Responsive HTML5  
 
 
 ### Requirements
@@ -51,46 +51,35 @@ This Project still on Development.
 
 ### Recommended Installation
 
-(On Debian / Ubuntu)  
+Debian / Ubuntu Linux  
 
-Visit this [Wiki page](//github.com/ieru/kosa/wiki/Recommended-Installation)
-
-### Installation  
-
-(On Mac OS X)
-To be done.
-
-### Installation
-
-(On Windows)
-To be done.
-
-### Installation 
-
-(On a SaaS: AWS and Heroku)
-To be done.
+[wiki](//github.com/ieru/kosa/wiki/Recommended-Installation)
 
 ### Postinstallation
 
-You can get more info on how to Install a Production or Development  
-Server on this [Wiki Page](https://github.com/ieru/kosa/wiki/Postinstallation)
+More info on how to install in Production and Development  
+
+[wiki](https://github.com/ieru/kosa/wiki/Postinstallation)
 
 ### Customizations
 
 You can get more information about Javascript, templates & css changes  
-on this [Wiki Page](//github.com/ieru/kosa/wiki/Customizations)
+
+[wiki](//github.com/ieru/kosa/wiki/Customizations)
 
 
 ### Troubleshooting
 
-[Troubleshooting](//github.com/ieru/kosa/wiki/Troubleshooting)
+[wiki](//github.com/ieru/kosa/wiki/Troubleshooting)
 
 ### API Documentation
 
-Read more about the Server-Side [API](//github.com/ieru/kosa/wiki/Kosa-RESTful-API)
+Server-Side API documentation
+
+[wiki](//github.com/ieru/kosa/wiki/Kosa-RESTful-API)
 
 
-### Extra Features
+### Features
 
 Pluggable databases:
 - Sesame
@@ -132,7 +121,7 @@ Indexers:
 
 University of Alcala
 
-### 'License'
+### LICENSE
 
 This is free and unemcumbered software released into the public domain. For more information, see the accompanying UNLICENSE file.
 
